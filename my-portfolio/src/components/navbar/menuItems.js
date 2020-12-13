@@ -10,7 +10,7 @@
         cName: 'nav-links'
     },
     {
-        title: 'projects',
+        title: 'Projects',
         url: '#',
         cName: 'nav-links'
     },
@@ -20,7 +20,7 @@
         cName: 'nav-links'
     },
     {
-        title: 'Sign u',
+        title: 'Sign up',
         url: '#',
         cName: 'nav-links-mobile'
     }

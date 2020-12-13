@@ -3,12 +3,12 @@ import '../css/Buttons.css';
 
 const STYLES = [
     'btn--primary',
-    'btn-outline'
+    'btn--outline'
 ]
 
 const SIZES = [
-    'btn-medium',
-    'btn-large'
+    'btn--medium',
+    'btn--large'
 ]
 
 export const Button = ({
@@ -26,7 +26,7 @@ export const Button = ({
     buttonSize : SIZES[0]
 
     return (
-        <button className={'btn ${checkButtonStyle} ${CheckButtonSize}'} onclick={onClick}
+        <button className={`btn ${CheckButtonStyle} ${CheckButtonSize}`} onclick={onClick}
         type={type}>
             {children}
         </button> 

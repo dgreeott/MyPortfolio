@@ -1,5 +1,5 @@
 .navbarItems {
-    background: linear-gradient(90deg, rgba(100, 94, 254) 0%, rgba(73,63,252,1) 100%);
+    background: #f8f5f2;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 .navbar-logo {
-    color: #ffffff;
+    color: #232323;
     justify-self: start;
     margin-left: 20px;
     cursor : pointer;
@@ -31,19 +31,19 @@
 }
 
 .nav-links {
-    color: white;
+    color: #232323;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-    background-color: #6d76f7;
+    background-color: #f45d48;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-    color: #fff;
+    color: #232323;
 }
 
 .nav-links-mobile {
@@ -54,3 +54,85 @@
     display: none;
 }
 
+@media screen and (max-width: 960px) {
+    .navbarItems {
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 550px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active {
+        background: #f8f5f2;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        background-color: #f45d48;
+        border-radius: 0;
+    }
+
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(15%, 15%);
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;   
+    }
+
+    .fa-times {
+        color: #232323;
+        font-size: 2rem;
+    }
+
+    .nav-links-mobile {
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: 2rem auto;
+        border-radius: 4px;
+        width: 80%;
+        background: #078080;
+        color: #232323;
+        font-size: 1.5rem;
+    }
+
+    .nav-links-mobile:hover {
+        background: #232323;
+        color: #fff;
+        transition: 250ms;
+    }
+
+    Button.btn {
+        display: none;
+    }
+
+}
