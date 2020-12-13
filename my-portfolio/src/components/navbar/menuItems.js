@@ -20,7 +20,7 @@
         cName: 'nav-links'
     },
     {
-        title: 'Sign up',
+        title: 'Resume',
         url: '#',
         cName: 'nav-links-mobile'
     }
