@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from 'axios';
 
+import '../components/ContactPage/ContactForm.css';
+
 class Contact extends Component {
   
     constructor(props) {
@@ -112,7 +114,7 @@ class Contact extends Component {
                       type="text"
                       className="formControl"
                       required
-                      value={this.state.subject}
+                      value={this.state.message}
                       onChange={this.onMsgChange.bind(this)}
                     />
                   </div>
