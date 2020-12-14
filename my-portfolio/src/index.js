@@ -7,10 +7,13 @@ import reportWebVitals from './reportWebVitals';
 import 'jquery/dist/jquery.js';
 import 'popper.js/dist/umd/popper.js';
 import 'bootstrap/dist/js/bootstrap.js';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
