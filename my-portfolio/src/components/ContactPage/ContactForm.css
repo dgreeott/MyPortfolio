@@ -1,0 +1,25 @@
+.section {
+    background-color: #f8f5f2;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: #232323;
+    color: #fff;
+    transition: 250ms;
+}
+
+.primary-btn {
+    background-color: #078080;
+}
