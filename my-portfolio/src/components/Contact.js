@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from 'axios';
 
 class Contact extends Component {
   
@@ -115,6 +116,7 @@ class Contact extends Component {
                       onChange={this.onMsgChange.bind(this)}
                     />
                   </div>
+                  <button type="submit" className="primary-btn submit"></button>
                 </form>
               </div>
             </div>
