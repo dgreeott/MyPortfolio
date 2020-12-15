@@ -20,6 +20,12 @@
     transition: 250ms;
 }
 
-.primary-btn {
+.btn-primary {
     background-color: #078080;
+    border-color: #078080;
+}
+
+.title {
+    text-align: center;
+    justify-content: center;
 }
