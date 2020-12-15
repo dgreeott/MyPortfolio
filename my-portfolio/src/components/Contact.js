@@ -1,76 +1,71 @@
 import React, { Component } from "react";
-import axios from 'axios';
+import axios from "axios";
 
-import '../components/ContactPage/ContactForm.css';
+import "../components/ContactPage/ContactForm.css";
 
 class Contact extends Component {
-  
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: '',
-            email: '',
-            subject: '',
-            muessage: ''
-        }
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      email: "",
+      subject: "",
+      muessage: "",
+    };
+  }
 
-    onNameChange(event) {
-        this.setState({name: event.target.value})
-    }
+  onNameChange(event) {
+    this.setState({ name: event.target.value });
+  }
 
-    onEmailChange(event) {
-        this.setState({email: event.target.value})
-    }
+  onEmailChange(event) {
+    this.setState({ email: event.target.value });
+  }
 
-    onSubjectChange(event) {
-        this.setState({subject: event.target.value})
-    }
+  onSubjectChange(event) {
+    this.setState({ subject: event.target.value });
+  }
 
-    onMsgChange(event) {
-        this.setState({message: event.target.value})
-    }
+  onMsgChange(event) {
+    this.setState({ message: event.target.value });
+  }
 
-    submitEmail(e) {
-        e.preventDefault();
-        axios({
-            method: "POST",
-            url: "/send",
-            data: this.state
-        }).then((response) => {
-            if (response.data.status === 'sucess') {
-                alert("Message Sent.");
-                this.resetForm()
-            }else if (response.data.status === 'fail') {
-                alert("Message failed to send.")
-            }
-        })
-    }
+  submitEmail(e) {
+    e.preventDefault();
+    axios({
+      method: "POST",
+      url: "/send",
+      data: this.state,
+    }).then((response) => {
+      if (response.data.status === "sucess") {
+        alert("Message Sent.");
+        this.resetForm();
+      } else if (response.data.status === "fail") {
+        alert("Message failed to send.");
+      }
+    });
+  }
 
-    resetForm() {
-        this.setState({name: '', email: '', subject:'', 
-        message: ''})
-    }
-  
-    render() {
+  resetForm() {
+    this.setState({ name: "", email: "", subject: "", message: "" });
+  }
+
+  render() {
     return (
       <div className="section">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="container">
-                <h2 className="title">Contact Me!</h2>
-                <p>
-                  File out the contact form below, and I will get back to you as
-                  soon as possible.
-                </p>
+        <div className="container-fluid">
+          <div className="row justify-content-center m-4">
+            <h1 className="title">Contact</h1>
+          </div>
+          <div className="row ">
+            <div className="col-md m-5">
+              <div className="container-fluid">
                 <form
                   id="contactForm"
                   onSubmit={this.submitEmail.bind(this)}
                   method="POST"
                 >
                   <div className="formGroup">
-                    <div className="row">
                       <div className="col-md-6">
                         <input
                           placeholder="Name"
@@ -95,7 +90,6 @@ class Contact extends Component {
                         />
                       </div>
                     </div>
-                  </div>
                   <div className="formGroup">
                     <input
                       placeholder="Subject"
@@ -118,11 +112,17 @@ class Contact extends Component {
                       onChange={this.onMsgChange.bind(this)}
                     />
                   </div>
-                  <button type="submit" className="primary-btn submit"></button>
+                  <button className="btn-primary submit" type="submit">
+                    Submit
+                  </button>
                 </form>
               </div>
             </div>
+            <div className="col-md m-5">
+
           </div>
+          </div>
+          
         </div>
       </div>
     );
