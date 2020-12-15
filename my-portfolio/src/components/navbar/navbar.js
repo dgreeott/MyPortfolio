@@ -1,40 +1,40 @@
-import React, { Component } from 'react';
-import { MenuItems } from './MenuItems';
-import { Button } from '../Button.js';
-import './Navbar.css';
+import React, { Component } from "react";
+import { MenuItems } from "./MenuItems";
+import { Button } from "../Button.js";
+import "./Navbar.css";
 
 class Navbar extends Component {
-    state = { clicked: false }
+  state = { clicked: false };
 
-    handleClick = () => {
-        this.setState({ clicked: !this.state.clicked })
-    }
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
 
-    render() {
-        return (
-            <nav className="navbarItems">
-                <h1 className="navbar-logo">Drake Greeott</h1>
-                <div className="menu-icon" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-                </div>
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                    {MenuItems.map((item, index) => {
-                        return(
-                            <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                    {item.title}
-                                </a>
-                            </li>    
-                        )
-                    })}                    
-                </ul>
-                <Button>Resume</Button>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-github"></i>
-            </nav>
-        )
-    }
+  render() {
+    return (
+        <nav className="navbarItems">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+          <div className="menu-icon" onClick={this.handleClick}>
+            <i
+              className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+            ></i>
+          </div>
+          <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+            {MenuItems.map((item, index) => {
+              return (
+                <li key={index}>
+                  <a className={item.cName} href={item.url}>
+                    {item.title}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+          <Button>Resume</Button>
+        </nav>
+    );
+  }
 }
-
 
 export default Navbar;
