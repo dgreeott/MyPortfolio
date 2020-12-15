@@ -22,10 +22,6 @@ class Contact extends Component {
     this.setState({ email: event.target.value });
   }
 
-  onSubjectChange(event) {
-    this.setState({ subject: event.target.value });
-  }
-
   onMsgChange(event) {
     this.setState({ message: event.target.value });
   }
@@ -58,63 +54,53 @@ class Contact extends Component {
             <h1 className="title">Contact</h1>
           </div>
           <div className="row ">
-            <div className="col-md m-5">
-              <div className="container-fluid">
+            <div className="col-md m-2 ml-5">
+              <div className="container-fluid text-center">
                 <form
                   id="contactForm"
                   onSubmit={this.submitEmail.bind(this)}
                   method="POST"
                 >
                   <div className="formGroup">
-                      <div className="col-md-6">
                         <input
                           placeholder="Name"
                           id="name"
                           type="text"
-                          className="formControl"
+                          className="formControl m-4"
                           required
                           value={this.state.name}
                           onChange={this.onNameChange.bind(this)}
                         />
-                      </div>
-                      <div className="col-md-6">
-                        <input
+                      
+                    </div>
+                  <div className="formGroup">
+                  <input
                           placeholder="Email"
                           id="email"
                           type="email"
-                          className="formControl"
+                          className="formControl m-4"
                           aria-describeby="emailHelp"
                           required
                           value={this.state.email}
                           onChange={this.onEmailChange.bind(this)}
                         />
-                      </div>
-                    </div>
-                  <div className="formGroup">
-                    <input
-                      placeholder="Subject"
-                      id="subject"
-                      type="text"
-                      className="formControl"
-                      required
-                      value={this.state.subject}
-                      onChange={this.onSubjectChange.bind(this)}
-                    />
                   </div>
                   <div className="formGroup">
                     <input
                       placeholder="Message"
                       id="message"
                       type="text"
-                      className="formControl"
+                      className="formMessage m-4"
                       required
                       value={this.state.message}
                       onChange={this.onMsgChange.bind(this)}
                     />
                   </div>
-                  <button className="btn-primary submit" type="submit">
+                  <div className="text-center">
+                  <button className="btn-primary submit m-4" type="submit">
                     Submit
                   </button>
+                  </div>
                 </form>
               </div>
             </div>
