@@ -23,9 +23,18 @@
 .btn-primary {
     background-color: #078080;
     border-color: #078080;
+    min-width: 100px;
+    min-height: 40px;
 }
 
-.title {
-    text-align: center;
-    justify-content: center;
+.formControl {
+    background-color: #dedede;
+    min-width: 500px;
+    min-height: 40px;
+}
+
+.formMessage {
+    background-color: #dedede;
+    min-width: 500px;
+    min-height: 200px;
 }
