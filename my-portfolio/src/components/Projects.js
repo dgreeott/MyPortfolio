@@ -1,19 +1,20 @@
-import React from 'react'
+import React, { Component } from "react";
 
-function Projects() {
+class Projects extends Component {
+  
+  
+  
+  render() {
     return (
-        <main className="page bg-white" id="projects">
-			<div className="container">
-				<div className="row">
-					<div className="col-md-12 bg-white">
-						<div className="container">
-							<h1>My Projects</h1>								
-						</div>
-					</div>
-				</div>
-			</div>
-		</main>
+      <div className="section">
+        <div className="container-fluid">
+            <div className="row">
+              <h1>My Projects</h1>
+            </div>
+          </div>
+        </div>
     );
+  }
 }
 
 export default Projects;
