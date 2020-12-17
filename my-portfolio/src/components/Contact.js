@@ -5,7 +5,6 @@ import { Button } from "./Button.js";
 import "../components/ContactPage/ContactForm.css";
 
 class Contact extends Component {
-  
   constructor(props) {
     super(props);
     this.state = {
@@ -54,24 +53,23 @@ class Contact extends Component {
         <div className="container-fluid">
           <div className="row justify-content-center m-4">
             <div className="container-fluid text-center">
-              <h1 className="title">Contact</h1>
-              <p>I will get back to you as soon as possible!</p>
-              <br />
               <hr class="lineStyle"></hr>
+            </div>
+            <div className="container-fluid text-center">
+              <h1 className="title">CONTACT ME!</h1>
+              <h6>I WILL GET BACK TO YOU AS SOON AS POSSIBLE!</h6>
             </div>
           </div>
           <div className="row">
-          <div className="container-fluid text-center">
-            <div className="col-lg">
-                
+            <div className="container-fluid text-center">
+              <div className="col-lg">
                 <form
                   id="contactForm"
                   onSubmit={this.submitEmail.bind(this)}
                   method="POST"
                 >
-                
                   <div className="formGroup">
-                    <h5>Name</h5>
+                    <h5>NAME</h5>
                     <input
                       placeholder="Name"
                       id="name"
@@ -83,7 +81,7 @@ class Contact extends Component {
                     />
                   </div>
                   <div className="formGroup">
-                    <h5>Email</h5>
+                    <h5>EMAIL</h5>
                     <input
                       placeholder="Email"
                       id="email"
@@ -96,7 +94,7 @@ class Contact extends Component {
                     />
                   </div>
                   <div className="formGroup">
-                    <h5>Message</h5>
+                    <h5>MESSAGE</h5>
                     <input
                       placeholder="Message"
                       id="message"
@@ -108,7 +106,7 @@ class Contact extends Component {
                     />
                   </div>
                   <div className="text-center">
-                    <Button className="contactButton">Submit</Button>
+                    <Button className="contactButton">SUBMIT</Button>
                   </div>
                 </form>
               </div>
