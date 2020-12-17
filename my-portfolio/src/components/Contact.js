@@ -5,6 +5,7 @@ import { Button } from "./Button.js";
 import "../components/ContactPage/ContactForm.css";
 
 class Contact extends Component {
+  
   constructor(props) {
     super(props);
     this.state = {
