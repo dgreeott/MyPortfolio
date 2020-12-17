@@ -13,9 +13,11 @@ class Navbar extends Component {
   render() {
     return (
         <nav className="navbarItems">
+            <Button>Resume</Button>
             <i class="fas fa-envelope"></i>
             <i class="fab fa-linkedin"></i>
             <i class="fab fa-github"></i>
+            
           <div className="menu-icon" onClick={this.handleClick}>
             <i
               className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
@@ -32,7 +34,7 @@ class Navbar extends Component {
               );
             })}
           </ul>
-          <Button>Resume</Button>
+          
         </nav>
     );
   }
