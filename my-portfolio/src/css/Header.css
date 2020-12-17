@@ -1,13 +1,3 @@
-
-.section {
-    background-color: #f8f5f2;
-    display: flex;
-    min-width: 100%;
-}
-
-
-
 .jumbotron {
-    background-color: #f8f5f2;   
-    display: flex;
+    background-color: #f8f5f2;
 }

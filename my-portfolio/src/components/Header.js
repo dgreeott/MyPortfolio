@@ -1,26 +1,18 @@
 import React, { Component } from "react";
-import background from "./background.jpg"; // with import
-import { Button } from "./Button.js";
 import "../css/Header.css";
+import Typer from "../Typer.js";
 
 class Header extends Component {
-  
-	
-	render() {
+  render() {
     return (
-        <div className="section">
-		<div className="container-fluid">
-		<div className="row">
-            <div class="jumbotron jumbotron-fluid">
-              <div class="container-fluid text-center">
-                <h1 class="display-4">Drake Greeott</h1>
-                <h3 class="lead">Software Developer</h3>
-              </div>
-            </div>
+      <div className="container-fluid">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container-fluid text-center">
+            <h1 class="display-4">DRAKE GREEOTT</h1>
+            <Typer dataText={["SOFTWARE DEVELOPER", "WELCOME TO MY WEBSITE"]} />
           </div>
-		  </div>
-		  </div>
-
+        </div>
+      </div>
     );
   }
 }
