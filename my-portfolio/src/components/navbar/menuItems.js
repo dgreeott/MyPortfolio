@@ -6,7 +6,7 @@
         cName: 'nav-links'
     },
     {
-        title: 'About Me',
+        title: 'About',
         url: '/about',
         cName: 'nav-links'
     },
@@ -16,7 +16,7 @@
         cName: 'nav-links'
     },
     {
-        title: 'Contact',
+        title: 'Contact Me!',
         url: '/contact',
         cName: 'nav-links'
     },

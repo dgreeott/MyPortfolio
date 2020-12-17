@@ -52,18 +52,23 @@ class Contact extends Component {
       <div className="section">
         <div className="container-fluid">
           <div className="row justify-content-center m-4">
-            <h1 className="title">Contact</h1>
-            <br />
-            <hr class="lineStyle"></hr>
+            <div className="container-fluid text-center">
+              <h1 className="title">Contact</h1>
+              <p>I will get back to you as soon as possible!</p>
+              <br />
+              <hr class="lineStyle"></hr>
+            </div>
           </div>
           <div className="row">
-            <div className="col-md m-2 ml-5">
-              <div className="container-fluid text-center">
+          <div className="container-fluid text-center">
+            <div className="col-lg">
+                
                 <form
                   id="contactForm"
                   onSubmit={this.submitEmail.bind(this)}
                   method="POST"
                 >
+                
                   <div className="formGroup">
                     <h5>Name</h5>
                     <input
@@ -77,7 +82,7 @@ class Contact extends Component {
                     />
                   </div>
                   <div className="formGroup">
-                  <h5>Email</h5>
+                    <h5>Email</h5>
                     <input
                       placeholder="Email"
                       id="email"
@@ -90,7 +95,7 @@ class Contact extends Component {
                     />
                   </div>
                   <div className="formGroup">
-                  <h5>Message</h5>
+                    <h5>Message</h5>
                     <input
                       placeholder="Message"
                       id="message"
@@ -102,14 +107,9 @@ class Contact extends Component {
                     />
                   </div>
                   <div className="text-center">
-                    <Button>Submit</Button>
+                    <Button className="contactButton">Submit</Button>
                   </div>
                 </form>
-              </div>
-            </div>
-            <div className="col-md m-5">
-              <div className="container-fluid container-bkgnd rounded p-3 m-5">
-
               </div>
             </div>
           </div>

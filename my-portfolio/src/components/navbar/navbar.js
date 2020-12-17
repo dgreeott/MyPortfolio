@@ -13,6 +13,7 @@ class Navbar extends Component {
   render() {
     return (
         <nav className="navbarItems">
+            <i class="fas fa-envelope"></i>
             <i class="fab fa-linkedin"></i>
             <i class="fab fa-github"></i>
           <div className="menu-icon" onClick={this.handleClick}>
