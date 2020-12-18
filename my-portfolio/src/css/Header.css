@@ -1,3 +1,9 @@
 .jumbotron {
     background-color: #f8f5f2;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+.headerText {
+    margin-top: 200px;
 }

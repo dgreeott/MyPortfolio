@@ -61,8 +61,8 @@ class Contact extends Component {
             </div>
           </div>
           <div className="row mt-5">
-            <div className="container-fluid text-center">
-              <div className="col-lg">
+            <div className="container text-center" id="conForm">
+              <div className="col-sm">
                 <form
                   id="contactForm"
                   onSubmit={this.submitEmail.bind(this)}
