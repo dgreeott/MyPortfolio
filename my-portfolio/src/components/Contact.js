@@ -56,13 +56,16 @@ class Contact extends Component {
               <hr class="lineStyle"></hr>
             </div>
             <div className="container-fluid text-center">
-              <h1 className="title" id="contact">CONTACT ME!</h1>
+              <h1 className="title" id="contact">
+                CONTACT ME!
+              </h1>
               <h6>I WILL GET BACK TO YOU AS SOON AS POSSIBLE!</h6>
             </div>
           </div>
+          
+          <div className="container-fluid text-center">
           <div className="row mt-5">
-            <div className="container text-center" id="conForm">
-              <div className="col-sm">
+              <div className="col-sm-6">
                 <form
                   id="contactForm"
                   onSubmit={this.submitEmail.bind(this)}
@@ -109,6 +112,16 @@ class Contact extends Component {
                     <Button className="contactButton">SUBMIT</Button>
                   </div>
                 </form>
+              </div>
+              <div className="col-sm-5">
+                <div className="card m-5">
+                  <div className="card-header">Drake Greeott</div>
+                  <ul className="list-group list-group-flush">
+                    <li className="list-group-item">Cras justo odio</li>
+                    <li className="list-group-item">Dapibus ac facilisis in</li>
+                    <li className="list-group-item">Vestibulum at eros</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

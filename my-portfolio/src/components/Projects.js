@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "../css/Projects.css";
 import { Button } from "./Button.js";
 
+import water from "../img/drop-of-water_640.jpg";
+
 class Projects extends Component {
   render() {
     return (
@@ -21,7 +23,7 @@ class Projects extends Component {
                 <div className="card shadow-sm">
                   <img
                     className="card-img-top"
-                    src="..."
+                    src={water}
                     alt="Card image cap"
                   />
                   <div className="card-body">
@@ -38,7 +40,7 @@ class Projects extends Component {
                 <div className="card">
                   <img
                     className="card-img-top"
-                    src="..."
+                    src={water}
                     alt="Card image cap"
                   />
                   <div className="card-body">
@@ -55,7 +57,7 @@ class Projects extends Component {
                 <div className="card">
                   <img
                     className="card-img-top"
-                    src="..."
+                    src={water}
                     alt="Card image cap"
                   />
                   <div className="card-body">
@@ -69,12 +71,12 @@ class Projects extends Component {
                 </div>
               </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-3">
               <div className="col-sm-4">
                 <div className="card shadow-sm">
                   <img
                     className="card-img-top"
-                    src="..."
+                    src={water}
                     alt="Card image cap"
                   />
                   <div className="card-body">
@@ -91,7 +93,7 @@ class Projects extends Component {
                 <div className="card">
                   <img
                     className="card-img-top"
-                    src="..."
+                    src={water}
                     alt="Card image cap"
                   />
                   <div className="card-body">
@@ -108,7 +110,7 @@ class Projects extends Component {
                 <div className="card">
                   <img
                     className="card-img-top"
-                    src="..."
+                    src={water}
                     alt="Card image cap"
                   />
                   <div className="card-body">
