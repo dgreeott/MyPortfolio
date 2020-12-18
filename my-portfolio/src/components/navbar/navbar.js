@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { HashLink as Link } from 'react-router-hash-link';
 import { MenuItems } from "./MenuItems";
 import { Button } from "../Button.js";
 import "./Navbar.css";
@@ -27,9 +28,9 @@ class Navbar extends Component {
             {MenuItems.map((item, index) => {
               return (
                 <li key={index}>
-                  <a className={item.cName} href={item.url}>
+                  <Link smooth className={item.cName} to={item.url}>
                     {item.title}
-                  </a>
+                  </Link>
                 </li>
               );
             })}

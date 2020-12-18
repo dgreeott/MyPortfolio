@@ -15,10 +15,6 @@ function App() {
     <div className="App">
       <Helmet bodyAttributes={{ style: "background-color : #f8f5f2" }} />
       <Navbar />
-      <Route exact path="/Header" component={Header} />
-      <Route exact path="/About" component={About} />
-      <Route exact path="/projects" component={Projects} />
-      <Route exact path="/contact" component={Contact} />
       <Header />
 	  <Projects />
 	  <Contact />

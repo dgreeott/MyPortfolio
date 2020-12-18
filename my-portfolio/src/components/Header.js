@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import "../css/Header.css";
 import Typer from "../Typer.js";
 
-import forest from "./forest-1920.jpg";
+import forest from "../img/forest-1920.jpg";
 
 class Header extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section" id="header">
         <div className="container-fluid">
             <div
               className="jumbotron jumbotron-fluid"
