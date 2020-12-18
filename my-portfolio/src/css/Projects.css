@@ -1,0 +1,11 @@
+::after, ::before {
+    box-sizing: border-box;
+}
+
+.row {
+    max-width: 100%;
+}
+
+.card {
+    background-color: #078080;
+}

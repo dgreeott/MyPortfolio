@@ -49,7 +49,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="section">
+      <div className="section mt-5 mb-5">
         <div className="container-fluid">
           <div className="row justify-content-center m-4">
             <div className="container-fluid text-center">
@@ -60,7 +60,7 @@ class Contact extends Component {
               <h6>I WILL GET BACK TO YOU AS SOON AS POSSIBLE!</h6>
             </div>
           </div>
-          <div className="row">
+          <div className="row mt-5">
             <div className="container-fluid text-center">
               <div className="col-lg">
                 <form
@@ -87,7 +87,7 @@ class Contact extends Component {
                       id="email"
                       type="email"
                       className="formControl rounded m-4"
-                      aria-describeby="emailHelp"
+                      aria-describedby="emailHelp"
                       required
                       value={this.state.email}
                       onChange={this.onEmailChange.bind(this)}
