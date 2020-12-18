@@ -8,8 +8,7 @@ class Footer extends Component {
         <div className="container p-4">
           <div className="row">
             <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 className="text-uppercase"></h5>
-              <h3>Drake Greeott</h3>
+              <h5 className="text-uppercase">Drake Greeott</h5>
               <h5>Email:</h5>
             </div>
 

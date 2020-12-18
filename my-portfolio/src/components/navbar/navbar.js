@@ -3,7 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { MenuItems } from "./MenuItems";
 import { Button } from "../Button.js";
 import "./Navbar.css";
-import PopUp from '../Resume';
+import Modal from '../Resume';
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -12,21 +12,12 @@ class Navbar extends Component {
     this.setState({ clicked: !this.state.clicked });
   };
 
-  togglePop = () => {
-    this.setState({
-      seen: !this.state.seen
-    })
-  }
 
   render() {
     return (
         <nav className="navbarItems">
-            <div>
-              <div className="btn" onClick={this.togglePop}>
+            <Modal />
             <Button>Resume</Button>
-            </div>
-            {this.state.seen ? <PopUp toggle={this.togglePop} /> : null}
-            </div>
             
             <i class="fas fa-envelope"></i>
             <i class="fab fa-linkedin"></i>

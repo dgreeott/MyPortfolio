@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import { Button } from "./Button.js";
 
-import "../components/ContactPage/ContactForm.css";
+import "../css/Contact.css";
 
 class Contact extends Component {
   constructor(props) {
@@ -49,7 +49,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="section mt-5 mb-5">
+      <div className="section">
         <div className="container-fluid">
           <div className="row justify-content-center m-4">
             <div className="container-fluid text-center">
