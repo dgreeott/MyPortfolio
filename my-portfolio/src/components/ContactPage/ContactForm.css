@@ -1,9 +1,4 @@
 
-.section {
-    background-color: #f8f5f2;
-    display: flex;
-    min-width: 100%;
-}
 
 .container-bkgnd {
     background-color: #078080;
@@ -13,6 +8,7 @@ hr.lineStyle {
     border-top: 3px double #8c8b8b;
     min-width: 100%;
 }
+
 
 .formControl {
     background-color: #dedede;
