@@ -19,10 +19,5 @@
         title: 'ABOUT',
         url: '/about',
         cName: 'nav-links'
-    },
-    {
-        title: 'RESUME',
-        url: '#',
-        cName: 'nav-links-mobile'
     }
 ]
