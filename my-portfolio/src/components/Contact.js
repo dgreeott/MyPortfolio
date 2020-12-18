@@ -56,7 +56,7 @@ class Contact extends Component {
               <hr class="lineStyle"></hr>
             </div>
             <div className="container-fluid text-center">
-              <h1 className="title">CONTACT ME!</h1>
+              <h1 className="title" id="contact">CONTACT ME!</h1>
               <h6>I WILL GET BACK TO YOU AS SOON AS POSSIBLE!</h6>
             </div>
           </div>

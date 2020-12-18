@@ -12,7 +12,7 @@ class Projects extends Component {
               <hr class="lineStyle"></hr>
             </div>
             <div className="container-fluid text-center">
-              <h1 className="title">PROJECTS</h1>
+              <h1 className="title" id="projects">PROJECTS</h1>
             </div>
           </div>
           <div className="container">
