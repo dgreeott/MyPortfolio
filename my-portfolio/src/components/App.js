@@ -5,8 +5,9 @@ import "../css/App.css";
 import Header from "./Header";
 import About from "./About";
 import Projects from "./Projects";
+import Skills from "./Skills";
 import Contact from "./Contact";
-import { Route } from "react-router-dom";
+import Footer from "./Footer";
 
 import Helmet from "react-helmet";
 
@@ -16,8 +17,10 @@ function App() {
       <Helmet bodyAttributes={{ style: "background-color : #f8f5f2" }} />
       <Navbar />
       <Header />
-	  <Projects />
-	  <Contact />
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
     </div>
   );
 }
