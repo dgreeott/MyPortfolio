@@ -50,7 +50,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="section">
-        <div className="container-fluid">
+        <div className="container-fluid p-4">
           <div className="row justify-content-center m-4">
             <div className="container-fluid text-center">
               <hr class="lineStyle"></hr>

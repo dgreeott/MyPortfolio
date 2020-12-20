@@ -18,7 +18,6 @@ function App() {
       <Navbar />
       <Header />
       <Projects />
-      <Skills />
       <Contact />
       <Footer />
     </div>

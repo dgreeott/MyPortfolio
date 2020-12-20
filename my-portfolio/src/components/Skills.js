@@ -15,7 +15,7 @@ class Skills extends Component {
         <div className="container-fluid text-center mb-5">
           <h1 className="title">SKILLS</h1>
 
-          <div className="row mt-4">
+          <div className="row">
             <div className="col-sm-6">
               <h5>Programming Languages</h5>
             </div>
@@ -23,7 +23,7 @@ class Skills extends Component {
               <h5>Scripting Languages</h5>
             </div>
           </div>
-          <div className="row mt-3">
+          <div className="row">
             <div className="col-sm-6">
                 <FaHtml5 size={40} />
                 <FaCss3Alt size={40} />
@@ -35,7 +35,7 @@ class Skills extends Component {
                 <FaPython size={40}/>
             </div>
           </div>
-          <div className="row mt-4">
+          <div className="row">
             <div className="col-sm-6">
               <h5>Tools & Labraries</h5>
             </div>
@@ -43,7 +43,7 @@ class Skills extends Component {
               <h5>CMS Platforms</h5>
             </div>
           </div>
-          <div className="row mt-3">
+          <div className="row">
             <div className="col-sm-6">
                 <SiRedux size={40} />
                 <FaReact size={40} />
@@ -55,10 +55,7 @@ class Skills extends Component {
                 <FaDrupal size={40} />
             </div>
           </div>
-          <div className="col-sm-6">
-              
-          </div>
-        </div>
+        </div> 
       </div>
     );
   }

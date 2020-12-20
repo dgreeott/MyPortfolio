@@ -14,7 +14,9 @@ class Projects extends Component {
               <hr class="lineStyle"></hr>
             </div>
             <div className="container-fluid text-center">
-              <h1 className="title" id="projects">PROJECTS</h1>
+              <h1 className="title" id="projects">
+                PROJECTS
+              </h1>
             </div>
           </div>
           <div className="container">
@@ -32,7 +34,16 @@ class Projects extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <Button>Go Somewhere</Button>
+                    <div className="container-fluid text-center p-2">
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <Button>Demo</Button>
+                        </div>
+                        <div className="col-sm-6">
+                          <Button>Code</Button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -49,7 +60,16 @@ class Projects extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <Button>Go Somewhere</Button>
+                    <div className="container-fluid text-center p-2">
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <Button>Demo</Button>
+                        </div>
+                        <div className="col-sm-6">
+                          <Button>Code</Button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -66,7 +86,16 @@ class Projects extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <Button>Go Somewhere</Button>
+                    <div className="container-fluid text-center p-2">
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <Button>Demo</Button>
+                        </div>
+                        <div className="col-sm-6">
+                          <Button>Code</Button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -85,7 +114,16 @@ class Projects extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <Button>Go Somewhere</Button>
+                    <div className="container-fluid text-center p-2">
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <Button>Demo</Button>
+                        </div>
+                        <div className="col-sm-6">
+                          <Button>Code</Button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -102,7 +140,16 @@ class Projects extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <Button>Go Somewhere</Button>
+                    <div className="container-fluid text-center p-2">
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <Button>Demo</Button>
+                        </div>
+                        <div className="col-sm-6">
+                          <Button>Code</Button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -119,8 +166,16 @@ class Projects extends Component {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </p>
-                    <Button>Go Somewhere</Button>
-                    
+                    <div className="container-fluid text-center p-2">
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <Button>Demo</Button>
+                        </div>
+                        <div className="col-sm-6">
+                          <Button>Code</Button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
