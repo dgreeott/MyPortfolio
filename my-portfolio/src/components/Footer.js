@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import "../css/Footer.css";
 
+import Skills from "./Skills";
+
 class Footer extends Component {
   render() {
     return (
       <footer className="text-center text-lg-start">
-        <div className="container p-4">
+        <div className="container-fluid p-2">
           <div className="row">
             <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 className="text-uppercase">Drake Greeott</h5>
-              <h5>Email:</h5>
+              <Skills />
             </div>
 
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
