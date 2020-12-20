@@ -14,54 +14,69 @@ class Footer extends Component {
             </div>
 
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
-
+              <h1>Projects</h1>
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-dark">
-                    Link 1
+                  <a href="#!" className="text-light">
+                    Project 1
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-dark">
-                    Link 2
+                  <a href="#!" className="text-light">
+                    Project 2
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-dark">
-                    Link 3
+                  <a href="#!" className="text-light">
+                    Project 3
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-dark">
-                    Link 4
+                  <a href="#!" className="text-light">
+                    Project 4
+                  </a>
+                </li>
+                <li>
+                  <a href="#!" className="text-light">
+                    Project 5
+                  </a>
+                </li>
+                <li>
+                  <a href="#!" className="text-light">
+                    Project 6
                   </a>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase mb-0">Links</h5>
-
-              <ul className="list-unstyled">
+              <h1>Sections</h1>
+              <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-dark">
-                    Link 1
+                  <a href="#!" className="text-light">
+                    Top-of-Page
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-dark">
-                    Link 2
+                  <a href="#!" className="text-light">
+                    Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-dark">
-                    Link 3
+                  <a href="#!" className="text-light">
+                    Contact
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-dark">
-                    Link 4
+                  <a href="#!" className="text-light">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#!" className="text-light">
+                    <i class="fas fa-envelope"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-github"></i>
                   </a>
                 </li>
               </ul>
