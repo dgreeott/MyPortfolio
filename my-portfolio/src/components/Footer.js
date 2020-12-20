@@ -64,7 +64,7 @@ class Footer extends Component {
                 </li>
                 <li>
                   <a href="#!" className="text-light">
-                    Contact
+                    Contact Me!
                   </a>
                 </li>
                 <li>
