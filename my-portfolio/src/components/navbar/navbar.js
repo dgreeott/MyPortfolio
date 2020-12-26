@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { HashLink as Link } from 'react-router-hash-link';
 import { MenuItems } from "./MenuItems";
-import { Button } from "../Button.js";
 import "./Navbar.css";
-import Modal from '../Resume';
+import Resume from '../Resume';
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -16,9 +15,7 @@ class Navbar extends Component {
   render() {
     return (
         <nav className="navbarItems">
-            <Modal />
-            <Button>Resume</Button>
-            
+            <Resume />
             <i class="fas fa-envelope"></i>
             <i class="fab fa-linkedin"></i>
             <i class="fab fa-github"></i>
