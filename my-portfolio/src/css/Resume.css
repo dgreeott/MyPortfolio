@@ -8,9 +8,15 @@
   .modal-container {
     position: absolute;
     width: 60%;
+    height: 80%;
     background: #ffffff;
     left: 25%;
-    top: 30%;
+    top: 5%;
     padding: 20px;
+  }
+
+  embed {
+    min-width: 90%;
+    min-height: 90%;
   }
   
