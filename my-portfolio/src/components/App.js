@@ -5,11 +5,12 @@ import "../css/App.css";
 import Header from "./Header";
 import About from "./About";
 import Projects from "./Projects";
-import Skills from "./Skills";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
 import Helmet from "react-helmet";
+
+
 
 function App() {
   return (
