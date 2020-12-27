@@ -10,8 +10,6 @@ import Footer from "./Footer";
 
 import Helmet from "react-helmet";
 
-
-
 function App() {
   return (
     <div className="App">
@@ -20,6 +18,7 @@ function App() {
       <Header />
       <Projects />
       <Contact />
+      <About />
       <Footer />
     </div>
   );
