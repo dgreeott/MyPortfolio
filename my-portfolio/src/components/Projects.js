@@ -71,14 +71,14 @@ export const object = [
 class Projects extends Component {
   render() {
     return (
-      <div className="section mt-5 mb-5">
-        <div className="container-fluid">
+      <div className="section mt-5 mb-5" id="projects">
+        <div className="container">
           <div className="row justify-content-center m-4">
-            <div className="container-fluid text-center">
+            <div className="container text-center">
               <hr class="lineStyle"></hr>
             </div>
-            <div className="container-fluid text-center">
-              <h1 className="title" id="projects">
+            <div className="container text-center">
+              <h1 className="title" >
                 PROJECTS
               </h1>
             </div>

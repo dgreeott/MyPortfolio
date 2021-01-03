@@ -1,8 +1,32 @@
 import React, { Component } from "react";
 import { HashLink as Link } from 'react-router-hash-link';
-import { MenuItems } from "./MenuItems";
 import "./Navbar.css";
 import Resume from '../Resume';
+
+export const MenuItems = [
+  {
+      title: 'HOME',
+      url: '/#header',
+      cName: 'nav-links'
+  },
+  {
+      title: 'PROJECTS',
+      url: '/#projects',
+      cName: 'nav-links'
+  },
+  {
+    title: 'ABOUT',
+    url: '/#about',
+    cName: 'nav-links'
+  },
+  {
+      title: 'CONTACT',
+      url: '/#contact',
+      cName: 'nav-links'
+  },
+  
+]
+
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -15,7 +39,7 @@ class Navbar extends Component {
 
   render() {
     return (
-        <nav className="navbarItems">
+        <nav className="navbarItems sticky-top">
             <Resume />
             <i class="fas fa-envelope"></i>
             <i class="fab fa-linkedin"></i>
