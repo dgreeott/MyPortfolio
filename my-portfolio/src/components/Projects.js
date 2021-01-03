@@ -4,6 +4,52 @@ import { Button } from "./Button.js";
 
 import water from "../img/drop-of-water_640.jpg";
 
+
+export const object = [
+  {
+    title: "Project 1",
+    cNameTitle: "card-title",
+    text:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    cName2Text: "card-text",
+  },
+  {
+    title: "Project 2",
+    cName1Title: "card-title",
+    text:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    cNameText: "card-text",
+  },
+  {
+    title: "Project 3",
+    cNameTitle: "card-title",
+    text:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    cNameText: "card-text",
+  },
+  {
+    title: "Project 4",
+    cNameTitle: "card-title",
+    text:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    cNameText: "card-text",
+  },
+  {
+    title: "Project 5",
+    cNameTitle: "card-text",
+    text:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    cNameText: "card-title",
+  },
+  {
+    title: "Project 6",
+    cNameTitle: "card-title",
+    text:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    cNameText: "card-text",
+  },
+];
+
 class Projects extends Component {
   render() {
     return (
@@ -20,165 +66,36 @@ class Projects extends Component {
             </div>
           </div>
           <div className="container">
-            <div className="row mt-5">
-              <div className="col-sm-4">
-                <div className="card shadow-sm">
-                  <img
-                    className="card-img-top"
-                    src={water}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <div className="container-fluid text-center p-2">
-                      <div className="row">
-                        <div className="col-sm-6">
-                          <Button>Demo</Button>
-                        </div>
-                        <div className="col-sm-6">
-                          <Button>Code</Button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4">
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={water}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <div className="container-fluid text-center p-2">
-                      <div className="row">
-                        <div className="col-sm-6">
-                          <Button>Demo</Button>
-                        </div>
-                        <div className="col-sm-6">
-                          <Button>Code</Button>
+            <div className="row">
+              {object.map((item, index) => {
+                return (
+                  <>
+                    <div className="col-sm-4 mt-5">
+                      <div className="card shadow-sm">
+                        <img
+                          clasName="card-img-top"
+                          src= {water}
+                          alt="Card image cap"
+                        />
+                        <h5 key={index} className={item.cNameTitle}>
+                          {item.title}
+                        </h5>
+                        <p key={index} className={item.cNameText}>
+                          {item.text}
+                        </p>
+                        <div className="row mb-3">
+                          <div className="col-sm-6">
+                            <Button>Demo</Button>
+                          </div>
+                          <div className="col-sm-6">
+                            <Button>Code</Button>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4">
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={water}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <div className="container-fluid text-center p-2">
-                      <div className="row">
-                        <div className="col-sm-6">
-                          <Button>Demo</Button>
-                        </div>
-                        <div className="col-sm-6">
-                          <Button>Code</Button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row mt-3">
-              <div className="col-sm-4">
-                <div className="card shadow-sm">
-                  <img
-                    className="card-img-top"
-                    src={water}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <div className="container-fluid text-center p-2">
-                      <div className="row">
-                        <div className="col-sm-6">
-                          <Button>Demo</Button>
-                        </div>
-                        <div className="col-sm-6">
-                          <Button>Code</Button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4">
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={water}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <div className="container-fluid text-center p-2">
-                      <div className="row">
-                        <div className="col-sm-6">
-                          <Button>Demo</Button>
-                        </div>
-                        <div className="col-sm-6">
-                          <Button>Code</Button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4">
-                <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={water}
-                    alt="Card image cap"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <div className="container-fluid text-center p-2">
-                      <div className="row">
-                        <div className="col-sm-6">
-                          <Button>Demo</Button>
-                        </div>
-                        <div className="col-sm-6">
-                          <Button>Code</Button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                  </>
+                );
+              })}
             </div>
           </div>
         </div>
