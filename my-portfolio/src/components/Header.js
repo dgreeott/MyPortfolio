@@ -7,8 +7,8 @@ import forest from "../img/forest-1920.jpg";
 class Header extends Component {
   render() {
     return (
-      <div className="section" id="header">
-        <div className="container-fluid">
+      <div className="section mt-5 pt-5" id="header">
+        <div className="container-fluid pt-5">
             <div
               className="jumbotron jumbotron-fluid"
               style={{ backgroundImage: `url(${forest})` }}

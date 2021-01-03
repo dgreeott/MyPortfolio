@@ -71,13 +71,10 @@ export const object = [
 class Projects extends Component {
   render() {
     return (
-      <div className="section mt-5 mb-5" id="projects">
-        <div className="container">
-          <div className="row justify-content-center m-4">
-            <div className="container text-center">
-              <hr class="lineStyle"></hr>
-            </div>
-            <div className="container text-center">
+      <div className="section m-5 pt-5" id="projects">
+        <div className="container pt-5">
+          <div className="row justify-content-center">
+            <div className="container text-center ">
               <h1 className="title" >
                 PROJECTS
               </h1>
@@ -88,8 +85,9 @@ class Projects extends Component {
               {object.map((item, index) => {
                 return (
                   <>
-                    <div className="col-sm-4 mt-5">
+                    <div className="col-sm-4 mt-4">
                       <div className="card shadow-sm">
+                        
                         <img
                           key={index}
                           className={item.cNameImg}
@@ -102,7 +100,7 @@ class Projects extends Component {
                         <p key={index} className={item.cNameText}>
                           {item.text}
                         </p>
-                        <div className="row mb-3">
+                        <div className="row mb-4">
                           <div className="col-sm-6">
                             <Button>Demo</Button>
                           </div>
