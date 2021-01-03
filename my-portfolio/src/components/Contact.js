@@ -49,14 +49,11 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="section">
-        <div className="container p-4">
-          <div className="row justify-content-center m-4">
-            <div className="container-fluid text-center">
-              <hr class="lineStyle"></hr>
-            </div>
-            <div className="container-fluid text-center">
-              <h1 className="title" id="contact">
+      <div className="section mt-5 pt-5" id="contact">
+        <div className="container-fluid pt-5">
+          <div className="row justify-content-center">
+            <div className="container text-center">
+              <h1 className="title">
                 CONTACT ME!
               </h1>
               <h6>I WILL GET BACK TO YOU AS SOON AS POSSIBLE!</h6>
