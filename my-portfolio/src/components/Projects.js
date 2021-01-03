@@ -7,6 +7,9 @@ import water from "../img/drop-of-water_640.jpg";
 
 export const object = [
   {
+    imgSrc: water,
+    cNameImg: "card-img-top",
+    altImg: "Card image cap",
     title: "Project 1",
     cNameTitle: "card-title",
     text:
@@ -14,6 +17,9 @@ export const object = [
     cName2Text: "card-text",
   },
   {
+    imgSrc: water,
+    cNameImg: "card-img-top",
+    altImg: "Card image cap",
     title: "Project 2",
     cName1Title: "card-title",
     text:
@@ -21,6 +27,9 @@ export const object = [
     cNameText: "card-text",
   },
   {
+    imgSrc: water,
+    cNameImg: "card-img-top",
+    altImg: "Card image cap",
     title: "Project 3",
     cNameTitle: "card-title",
     text:
@@ -28,6 +37,9 @@ export const object = [
     cNameText: "card-text",
   },
   {
+    imgSrc: water,
+    cNameImg: "card-img-top",
+    altImg: "Card image cap",
     title: "Project 4",
     cNameTitle: "card-title",
     text:
@@ -35,6 +47,9 @@ export const object = [
     cNameText: "card-text",
   },
   {
+    imgSrc: water,
+    cNameImg: "card-img-top",
+    altImg: "Card image cap",
     title: "Project 5",
     cNameTitle: "card-text",
     text:
@@ -42,6 +57,9 @@ export const object = [
     cNameText: "card-title",
   },
   {
+    imgSrc: water,
+    cNameImg: "card-img-top",
+    altImg: "Card image cap",
     title: "Project 6",
     cNameTitle: "card-title",
     text:
@@ -73,9 +91,10 @@ class Projects extends Component {
                     <div className="col-sm-4 mt-5">
                       <div className="card shadow-sm">
                         <img
-                          clasName="card-img-top"
-                          src= {water}
-                          alt="Card image cap"
+                          key={index}
+                          className={item.cNameImg}
+                          src= {item.imgSrc}
+                          alt={item.altImg}
                         />
                         <h5 key={index} className={item.cNameTitle}>
                           {item.title}
