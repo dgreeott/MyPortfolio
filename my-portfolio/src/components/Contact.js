@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import axios from "axios";
 import { Button } from "./Button.js";
 
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "./Footer";
 import "../css/Contact.css";
 
 class Contact extends Component {
@@ -49,7 +51,9 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="section mt-5 pt-5" id="contact">
+      <>
+      <Navbar />
+      <div className="section mb-5" id="contact">
         <div className="container-fluid pt-5">
           <div className="row justify-content-center">
             <div className="container text-center">
@@ -114,6 +118,8 @@ class Contact extends Component {
           </div>
         </div>
       </div>
+      <Footer />
+      </>
     );
   }
 }

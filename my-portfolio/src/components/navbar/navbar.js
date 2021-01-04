@@ -6,22 +6,22 @@ import Resume from '../Resume';
 export const MenuItems = [
   {
       title: 'HOME',
-      url: '/#header',
+      url: '/',
       cName: 'nav-links'
   },
   {
       title: 'PROJECTS',
-      url: '/#projects',
+      url: '/projects',
       cName: 'nav-links'
   },
   {
     title: 'ABOUT',
-    url: '/#about',
+    url: '/about',
     cName: 'nav-links'
   },
   {
       title: 'CONTACT',
-      url: '/#contact',
+      url: '/contact',
       cName: 'nav-links'
   },
   

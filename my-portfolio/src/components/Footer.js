@@ -53,23 +53,23 @@ class Footer extends Component {
               <h1>Sections</h1>
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-light">
-                    Top-of-Page
+                  <a href="/" className="text-light">
+                    Home
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-light">
+                  <a href="/projects" className="text-light">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-light">
-                    Contact Me!
+                  <a href="/about" className="text-light">
+                    About
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-light">
-                    About
+                  <a href="/contact" className="text-light">
+                    Contact Me!
                   </a>
                 </li>
                 <li>
