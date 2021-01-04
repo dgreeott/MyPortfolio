@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "../css/Projects.css";
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "./Footer";
 import { Button } from "./Button.js";
 
 import water from "../img/drop-of-water_640.jpg";
-
 
 export const object = [
   {
@@ -71,52 +72,53 @@ export const object = [
 class Projects extends Component {
   render() {
     return (
-      <div className="section m-5 pt-5" id="projects">
-        <div className="container pt-5">
-          <div className="row justify-content-center">
-            <div className="container text-center ">
-              <h1 className="title" >
-                PROJECTS
-              </h1>
+      <>
+        <Navbar />
+        <div className="section mb-5" id="projects">
+          <div className="container pt-5">
+            <div className="row justify-content-center">
+              <div className="container text-center ">
+                <h1 className="title">PROJECTS</h1>
+              </div>
             </div>
-          </div>
-          <div className="container">
-            <div className="row">
-              {object.map((item, index) => {
-                return (
-                  <>
-                    <div className="col-sm-4 mt-4">
-                      <div className="card shadow-sm">
-                        
-                        <img
-                          key={index}
-                          className={item.cNameImg}
-                          src= {item.imgSrc}
-                          alt={item.altImg}
-                        />
-                        <h5 key={index} className={item.cNameTitle}>
-                          {item.title}
-                        </h5>
-                        <p key={index} className={item.cNameText}>
-                          {item.text}
-                        </p>
-                        <div className="row mb-4">
-                          <div className="col-sm-6">
-                            <Button>Demo</Button>
-                          </div>
-                          <div className="col-sm-6">
-                            <Button>Code</Button>
+            <div className="container">
+              <div className="row">
+                {object.map((item, index) => {
+                  return (
+                    <>
+                      <div className="col-sm-4 mt-4">
+                        <div className="card shadow-sm">
+                          <img
+                            key={index}
+                            className={item.cNameImg}
+                            src={item.imgSrc}
+                            alt={item.altImg}
+                          />
+                          <h5 key={index} className={item.cNameTitle}>
+                            {item.title}
+                          </h5>
+                          <p key={index} className={item.cNameText}>
+                            {item.text}
+                          </p>
+                          <div className="row mb-4">
+                            <div className="col-sm-6">
+                              <Button>Demo</Button>
+                            </div>
+                            <div className="col-sm-6">
+                              <Button>Code</Button>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </>
-                );
-              })}
+                    </>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
-      </div>
+        <Footer />
+      </>
     );
   }
 }

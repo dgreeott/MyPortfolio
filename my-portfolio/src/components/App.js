@@ -1,8 +1,9 @@
 import React from "react";
-import Navbar from "../components/Navbar/Navbar";
 import "../css/App.css";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Header from "./Header";
+import Page from "./Page";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
@@ -13,13 +14,15 @@ import Helmet from "react-helmet";
 function App() {
   return (
     <div className="App">
-      <Helmet bodyAttributes={{ style: "background-color : #f8f5f2" }} />
-      <Navbar />
-      <Header />
-      <Projects />
-      <About />
-      <Contact />
-      <Footer />
+      <Router>
+        <Helmet bodyAttributes={{ style: "background-color : #f8f5f2" }} />
+        <Switch>
+          <Route path={"/"} exact component={Header} />
+          <Route path={"/about"} component={About} />
+          <Route path={"/projects"} component={Projects} />
+          <Route path={"/contact"} component={Contact} />
+        </Switch>
+      </Router>
     </div>
   );
 }
