@@ -27,8 +27,7 @@ export const PageItems = [
 class Header extends Component {
   render() {
     return (
-      <div className="section mt-3">
-        <div className="container-fluid">
+      <div className="section">
           <div
             className="jumbotron jumbotron-fluid"
             style={{ backgroundImage: `url(${forest})` }}
@@ -54,7 +53,6 @@ class Header extends Component {
             </div>
           </div>
         </div>
-      </div>
     );
   }
 }
