@@ -3,11 +3,9 @@ import "../css/App.css";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Header from "./Header";
-import Page from "./Page";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import Footer from "./Footer";
 
 import Helmet from "react-helmet";
 

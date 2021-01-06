@@ -1,3 +1,5 @@
+
+/* Styles for the Jumbotron */
 .jumbotron {
     
     background-attachment: fixed;
@@ -11,3 +13,32 @@
 .headerText {
     margin-top: 200px;
 }
+
+
+
+/* Styls for the list (Project, About, Contact)*/
+ul.headerList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li.header {
+    display: inline;
+    float: center;
+  }
+  
+  .header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .header li a:hover {
+    background-color: #111111;
+  }
+
+  
