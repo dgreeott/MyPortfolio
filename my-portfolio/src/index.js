@@ -9,6 +9,14 @@ import 'popper.js/dist/umd/popper.js';
 import 'bootstrap/dist/js/bootstrap.js';
 import { BrowserRouter } from 'react-router-dom';
 
+import WebFont from 'webfontloader';
+
+WebFont.load({
+  google: {
+    families: ['Playfair Display', 'sans-serif']
+  }
+});
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

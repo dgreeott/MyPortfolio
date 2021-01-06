@@ -33,10 +33,10 @@ class Header extends Component {
           className="jumbotron jumbotron-fluid"
           style={{ backgroundImage: `url(${forest})` }}
         >
-          <div className="container-fluid text-center headerText">
+          <div className="container-fluid text-center rounded headerText p-4">
             <h1 className="display-4">DRAKE GREEOTT</h1>
             <Typer dataText={["SOFTWARE DEVELOPER", "WELCOME TO MY WEBSITE"]} />
-          </div>
+          
           <div>
             <ul className="headerList">
               {PageItems.map((item, index) => {
@@ -49,6 +49,7 @@ class Header extends Component {
                 );
               })}
             </ul>
+          </div>
           </div>
         </div>
       </div>
