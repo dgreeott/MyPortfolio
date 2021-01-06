@@ -21,3 +21,20 @@ hr.lineStyle {
     min-width: 500px;
     min-height: 200px;
 }
+
+
+@media screen and (max-width: 960px) {
+
+    .formControl {
+        background-color: #dedede;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    
+    .formMessage {
+        background-color: #dedede;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+}
