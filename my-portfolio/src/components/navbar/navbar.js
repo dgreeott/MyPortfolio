@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import Resume from '../Resume';
 
@@ -41,9 +41,9 @@ class Navbar extends Component {
     return (
         <nav className="navbarItems sticky-top">
             <Resume />
-            <i class="fas fa-envelope"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-github"></i>
+            <a className="icons-navbar" href="mailto:drake.greeott@gmail.com" target="__blank"><i class="fas fa-envelope"></i></a>
+            <a className="icons-navbar" href="https://www.linkedin.com/in/drakegreeott/" target="__blank"><i class="fab fa-linkedin"></i></a>
+            <a className="icons-navbar" href="https://github.com/dgreeott" target="__blank"><i class="fab fa-github"></i></a>
             
           <div className="menu-icon" onClick={this.handleClick}>
             <i
@@ -54,7 +54,7 @@ class Navbar extends Component {
             {MenuItems.map((item, index) => {
               return (
                 <li key={index}>
-                  <Link smooth className={item.cName} to={item.url}>
+                  <Link className={item.cName} to={item.url}>
                     {item.title}
                   </Link>
                 </li>
