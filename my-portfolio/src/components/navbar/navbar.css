@@ -57,6 +57,27 @@
     margin: 1rem;
 }
 
+a.icons-navbar:link
+{
+   color: #232323;
+   text-decoration: none;
+}
+a.icons-navbar:visited
+{
+   color: #232323;
+   text-decoration: none;
+}
+a.icons-navbar:hover
+{
+   color: #232323;
+   text-decoration: none;
+}
+a.icons-navbar:active
+{
+   color: #232323;
+   text-decoration: none;
+}
+
 
 
 @media screen and (max-width: 960px) {

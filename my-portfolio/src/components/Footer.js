@@ -73,9 +73,27 @@ class Footer extends Component {
                 </li>
                 <li>
                   <a href="#!" className="text-light">
-                    <i class="fas fa-envelope"></i>
-                    <i class="fab fa-linkedin"></i>
-                    <i class="fab fa-github"></i>
+                    <a
+                      className="icons-footer"
+                      href="mailto:drake.greeott@gmail.com"
+                      target="__blank"
+                    >
+                      <i class="fas fa-envelope"></i>
+                    </a>
+                    <a
+                      className="icons-footer"
+                      href="https://www.linkedin.com/in/drakegreeott/"
+                      target="__blank"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a
+                      className="icons-footer"
+                      href="https://github.com/dgreeott"
+                      target="__blank"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
                   </a>
                 </li>
               </ul>

@@ -25,7 +25,7 @@ class About extends Component {
           <div className="col-sm-6">
             <MapContainer
               center={[39.7432, -105.0063]}
-              zoom={13}
+              zoom={14}
               scrollWheelZoom={false}
               size={100}
             >
