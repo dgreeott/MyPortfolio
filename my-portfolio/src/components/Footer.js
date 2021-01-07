@@ -7,13 +7,12 @@ class Footer extends Component {
   render() {
     return (
       <footer className="text-center text-lg-start">
-        <div className="container-fluid p-2">
+        <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <div className="col-lg-6 col-md-12  mb-md-0">
               <Skills />
             </div>
-
-            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div className="col-lg-3 col-md-6 mb-md-0">
               <h1>Projects</h1>
               <ul className="list-unstyled mb-0">
                 <li>
@@ -49,7 +48,7 @@ class Footer extends Component {
               </ul>
             </div>
 
-            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div className="col-lg-3 col-md-6 mb-md-0">
               <h1>Sections</h1>
               <ul className="list-unstyled mb-0">
                 <li>
