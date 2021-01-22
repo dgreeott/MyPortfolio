@@ -2,6 +2,7 @@ import React from "react";
 import "../css/App.css";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+import Navbar from "../components/Navbar/Navbar";
 import Header from "./Header";
 import About from "./About";
 import Projects from "./Projects";
@@ -16,6 +17,7 @@ function App() {
         <Helmet bodyAttributes={{ style: "background-color : #f8f5f2" }} />
         <Switch>
           <Route path={"/"} exact component={Header} />
+          <Navbar />
           <Route path={"/about"} component={About} />
           <Route path={"/projects"} component={Projects} />
           <Route path={"/contact"} component={Contact} />
