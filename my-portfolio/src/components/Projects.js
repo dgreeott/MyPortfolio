@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../css/Projects.css";
 import Footer from "./Footer";
 import { Button } from "./Button.js";
+import Navbar from "../components/Navbar/Navbar";
 
 import water from "../img/drop-of-water_640.jpg";
 
