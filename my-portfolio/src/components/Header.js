@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../css/Header.css";
 import Typer from "../Typer.js";
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import SmokeElement from "smoke-effect-react";
 
 import forest from "../img/forest-1920.jpg";
 import { Button } from "./Button";
@@ -29,10 +29,12 @@ class Header extends Component {
   render() {
     return (
       <div className="section">
+        
         <div
           className="jumbotron jumbotron-fluid"
           style={{ backgroundImage: `url(${forest})` }}
         >
+       
           <div className="container-fluid text-center rounded headerText p-4">
             <h1 className="display-4">DRAKE GREEOTT</h1>
             <Typer dataText={["SOFTWARE DEVELOPER", "WELCOME TO MY WEBSITE"]} />
