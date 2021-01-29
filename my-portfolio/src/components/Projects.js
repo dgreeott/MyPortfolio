@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../css/Projects.css";
-import Navbar from "../components/Navbar/Navbar";
 import Footer from "./Footer";
 import { Button } from "./Button.js";
 
@@ -73,7 +72,6 @@ class Projects extends Component {
   render() {
     return (
       <>
-        <Navbar />
         <div className="section mb-5" id="projects">
           <div className="container pt-5">
             <div className="row justify-content-center">

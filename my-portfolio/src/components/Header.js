@@ -2,10 +2,8 @@ import React, { Component } from "react";
 import "../css/Header.css";
 import Typer from "../Typer.js";
 import { Link } from "react-router-dom";
-import SmokeElement from "smoke-effect-react";
 
 import forest from "../img/forest-1920.jpg";
-import { Button } from "./Button";
 
 export const PageItems = [
   {
