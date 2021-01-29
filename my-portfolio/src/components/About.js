@@ -2,7 +2,7 @@ import {React, Component } from "react";
 
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
-import Navbar from "../components/Navbar/Navbar";
+
 import Footer from "./Footer";
 import "../css/About.css"
 
@@ -10,7 +10,7 @@ class About extends Component {
   render() {
     return (
       <>
-      <Navbar />
+      
       <div className="section mb-5" id="about">
         <div className="container pt-5">
           <div className="row justify-content-center mb-5">
