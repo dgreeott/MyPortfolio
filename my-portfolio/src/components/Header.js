@@ -36,7 +36,7 @@ class Header extends Component {
         >
        
           <div className="container-fluid text-center rounded headerText p-4">
-            <h1 className="display-4">DRAKE GREEOTT</h1>
+            <h1 className="display-4">DRAKE GREEOTT HEllos</h1>
             <Typer dataText={["SOFTWARE DEVELOPER", "WELCOME TO MY WEBSITE"]} />
           
           <div>
