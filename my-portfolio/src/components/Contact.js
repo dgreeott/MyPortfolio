@@ -3,6 +3,7 @@ import axios from "axios";
 import { Button } from "./Button.js";
 import Footer from "./Footer";
 import "../css/Contact.css";
+import Navbar from "../components/navbar/navbar";
 
 class Contact extends Component {
   constructor(props) {
