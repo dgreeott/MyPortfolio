@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import "../css/Skills.css";
-import { Button } from "./Button.js";
 
 import { FaHtml5, FaJsSquare, FaJava, 
         FaCss3Alt, FaPython, FaWordpress,
-        FaDrupal, FaReact, FaAws } from 'react-icons/fa';
-import { SiMysql, SiVmware, SiRedux } from "react-icons/si";
+        FaDrupal, FaReact } from 'react-icons/fa';
+import { SiMysql } from "react-icons/si";
 
 
 class Skills extends Component {
