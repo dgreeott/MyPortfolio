@@ -1,0 +1,40 @@
+
+
+.container-bkgnd {
+    background-color: #078080;
+}
+
+hr.lineStyle {
+    border-top: 3px double #8c8b8b;
+    min-width: 100%;
+}
+
+
+.formControl {
+    background-color: #dedede;
+    min-width: 500px;
+    min-height: 40px;
+}
+
+.formMessage {
+    background-color: #dedede;
+    min-width: 500px;
+    min-height: 200px;
+}
+
+
+@media screen and (max-width: 960px) {
+
+    .formControl {
+        background-color: #dedede;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    
+    .formMessage {
+        background-color: #dedede;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+}

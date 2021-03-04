@@ -1,6 +1,6 @@
 .navbarItems {
-    background: #f8f5f2;
-    height: 90px;
+    background-color: rgba(90, 116, 107, .9);
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,6 @@
 .navbar-logo {
     color: #232323;
     justify-self: start;
-    margin-left: 20px;
     cursor : pointer;
 }
 
@@ -20,8 +19,7 @@
     grid-template-columns: repeat(5, auto);
     grid-gap: 5px;
     list-style: none;
-    text-align: center;
-    width: 75vw;
+    text-align: center;;
     justify-content: end;
     margin-right: 2rem;
     margin-top: 1rem;
