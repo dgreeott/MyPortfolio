@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import "./Projects.css";
-import { Button } from "../Button";
-import { Project } from "./ProjectData";
+import "../Projects.css";
 
-class Projects extends Component {
+import { AboutProjects } from "../ProjectsAbout/AboutData";
+
+class AboutLayout extends Component {
   render() {
     return (
       <>
@@ -14,23 +13,23 @@ class Projects extends Component {
           </div>
 
           <div className="row m-3">
-            {Project.map((item, index) => {
+            {AboutProjects.map((item, findIndex) => {
               return (
                 <>
                   <div className="col-sm m-3">
                     <div className="row justify-content-center">
                       <div className="img-wrap ">
-                      <Link to={item.url}>
+                        <a href={item.moreRef}>
                           <img
-                            key={index}
+                            key={findIndex[1]}
                             className={item.cNameImg}
                             src={item.imgSrc}
                             alt={item.altImg}
                           />
-                        </Link>
-                        <div className="img-description m-5">
-                          <h3>{item.title}</h3>
-                          <p key={index} className={item.cNameText}>
+                        </a>
+                        <div className="img-description">
+                          <h3>Title</h3>
+                          <p key={findIndex[1]} className={item.cNameText}>
                             {item.text}
                           </p>
                           <h5>Used Tools</h5>
@@ -38,9 +37,12 @@ class Projects extends Component {
 
                         <div className="row justify-content-center mt-4">
                           <div classname="col-sm">
-                            
-                              <Button>More...</Button>
-                            
+                            <a
+                              href={item.moreRef}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -56,4 +58,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default AboutLayout;

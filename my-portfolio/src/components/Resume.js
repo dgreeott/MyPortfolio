@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import { Button } from "./Button.js";
 
-import "../css/Resume.css";
 
 import Doc from "../Resume_DG.pdf";
 
@@ -16,7 +15,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-      <a className="mr-5" onClick={(e) => this.onResumeClick(e)}><Button>Resume</Button></a>
+      <a className="" onClick={(e) => this.onResumeClick(e)}><Button>Resume</Button></a>
       </div>
       
     );
