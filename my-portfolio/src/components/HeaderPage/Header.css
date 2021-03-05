@@ -1,7 +1,6 @@
 
 /* Styles for the Jumbotron */
 .jumbotron {
-    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,8 +11,10 @@
 
 .headerText {
     margin-top: 250px;
-    background-color: rgba(248, 245, 242, .5);
+    background-color: rgba(248, 245, 242, .2);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
     width: 75%;
+    justify-content: center;
 }
 
 
@@ -24,11 +25,13 @@ ul.headerList {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    justify-content: center;
   }
   
   li.header {
     display: inline;
     float: center;
+    
   }
   
   .header li a {

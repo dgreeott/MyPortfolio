@@ -49,23 +49,24 @@ class Contact extends Component {
   render() {
     return (
       <>
-        <div className="container-fluid mt-5">
-          <div className="row">
-            <div className="container text-center mb-4">
+        <div className="container-fluid mb-5">
+          <div className="row text-center m-4">
+            <div className="container ">
               <h1 className="title">CONTACT ME!</h1>
               <h6>I WILL GET BACK TO YOU AS SOON AS POSSIBLE!</h6>
             </div>
           </div>
 
-          <div className="row mt-5">
-            <div className="col-sm mb-5">
+          <div className="row justify-content-center">
+            <div className="col-sm justify-content-center mb-5">
               <form
+                className="text-center"
                 id="contactForm"
                 onSubmit={this.submitEmail.bind(this)}
                 method="POST"
               >
                 <div className="formGroup">
-                  <h5>NAME</h5>
+                  <h5 className="text-center">NAME</h5>
                   <input
                     placeholder="Name"
                     id="name"
