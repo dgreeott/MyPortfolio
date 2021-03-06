@@ -11,7 +11,7 @@
 
 .headerText {
     margin-top: 250px;
-    background-color: rgba(248, 245, 242, .2);
+    background-color: rgba(248, 245, 242, .5);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
     width: 75%;
     justify-content: center;
