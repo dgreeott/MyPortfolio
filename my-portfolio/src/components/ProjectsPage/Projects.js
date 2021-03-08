@@ -37,7 +37,7 @@ class Projects extends Component {
                         </div>
 
                         <div className="row justify-content-center mt-4">
-                          <div classname="col-sm">
+                          <div className="col-sm">
                             
                               <Button>More...</Button>
                             

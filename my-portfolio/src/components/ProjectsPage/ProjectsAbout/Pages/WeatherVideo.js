@@ -5,7 +5,7 @@ import videojs from 'video.js';
 // eslint-disable-next-line import/prefer-default-export
 const usePlayer = ({ src, controls, autoplay }) => {
   const options = {
-    fill: true,
+    fill: false,
     fluid: true,
     preload: 'auto',
     html5: {
@@ -63,5 +63,6 @@ VideoPlayer.defaultProps = {
   controls: true,
   autoplay: false,
 };
+
 
 export default VideoPlayer;
