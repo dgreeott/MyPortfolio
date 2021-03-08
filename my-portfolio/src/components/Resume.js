@@ -15,7 +15,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-      <a className="" onClick={(e) => this.onResumeClick(e)}><Button>Resume</Button></a>
+      <a onClick={(e) => this.onResumeClick(e)}><Button>Resume</Button></a>
       </div>
       
     );

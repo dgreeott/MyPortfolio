@@ -18,22 +18,22 @@ class Footer extends Component {
               <h1 className="mb-3 mt-2">PROJECTS</h1>
               <ul className="list-unstyled mb-1">
                 <li className="mb-2 text-center">
-                  <a href="weatherapp" className="text-light">
+                  <a href="weatherapp" className="footer text-light">
                     Weather Site
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="zoemazurk" className="text-light">
+                  <a href="zoemazurk" className="footer text-light">
                     Zoe Mazurk Site
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/simplyhome" className="text-light">
+                  <a href="/simplyhome" className="footer text-light">
                     Simply Home Site
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/ourhelpapp" className="text-light">
+                  <a href="/ourhelpapp" className="footer text-light">
                     OurHelpApp Site
                   </a>
                 </li>
@@ -46,22 +46,22 @@ class Footer extends Component {
               <h1 className="mb-3 mt-2">SECTIONS</h1>
               <ul className="list-unstyled mb-0">
                 <li className="mb-2">
-                  <a href="/" className="text-light">
+                  <a href="/" className="footer text-light">
                     Home
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/projects" className="text-light">
+                  <a href="/projects" className="footer text-light">
                     Projects
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/about" className="text-light">
+                  <a href="/about" className="footer text-light">
                     About
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="/contact" className="text-light">
+                  <a href="/contact" className="footer text-light">
                     Contact Me!
                   </a>
                 </li>

@@ -9,17 +9,17 @@ export const PageItems = [
   {
     title: "PROJECTS",
     url: "/projects",
-    cName: "btn m-4",
+    cName: "btn btn-large btn-danger m-4",
   },
   {
     title: "ABOUT",
     url: "/about",
-    cName: "btn m-4",
+    cName: "btn btn-large btn-danger m-4",
   },
   {
     title: "CONTACT",
     url: "/contact",
-    cName: "btn m-4",
+    cName: "btn btn-large btn-danger m-4",
   },
 ];
 

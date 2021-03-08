@@ -17,8 +17,6 @@
     justify-content: center;
 }
 
-
-
 /* Styls for the list (Project, About, Contact)*/
 ul.headerList {
     list-style-type: none;
@@ -46,4 +44,16 @@ ul.headerList {
     background-color: #111111;
   }
 
+
+  .btn-danger {
+    background-color: #f45d48;
+  }
+
+  .btn-danger:hover {
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #232323;
+    transition: 250ms;
+}
   
