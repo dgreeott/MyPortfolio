@@ -12,11 +12,10 @@ import About from "./AboutPage/About";
 import Projects from "./ProjectsPage/Projects";
 import Contact from "./ContactPage/Contact";
 
-import { AboutProjects } from "../components/ProjectsPage/ProjectsAbout/AboutData";
-import WeatherApp from "./ProjectsPage/ProjectsAbout/Pages/WeatherApp"
-import ZoeMazurk from "./ProjectsPage/ProjectsAbout/Pages/ZoeMazurk"
-import SimplyHome from "./ProjectsPage/ProjectsAbout/Pages/SimplyHome"
-import OurHelpApp from "./ProjectsPage/ProjectsAbout/Pages/OurHelpApp"
+import WeatherApp from "./ProjectsPage/ProjectsAbout/Pages/WeatherProject/WeatherApp"
+import ZoeMazurk from "./ProjectsPage/ProjectsAbout/Pages/ZoeMazurkProject/ZoeMazurk"
+import SimplyHome from "./ProjectsPage/ProjectsAbout/Pages/SimplyHomeProject/SimplyHome"
+import OurHelpApp from "./ProjectsPage/ProjectsAbout/Pages/OurHelpProject/OurHelpApp"
 
 import Helmet from "react-helmet";
 

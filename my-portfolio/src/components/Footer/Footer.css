@@ -3,27 +3,9 @@ footer {
     color: #fff;
 }
 
-a.icons-footer:link
-{
-   color: #fff;
+a.footer {
    text-decoration: none;
 }
-a.icons-footer:visited
-{
-   color: #fff;
-   text-decoration: none;
-}
-a.icons-footer:hover
-{
-   color: #fff;
-   text-decoration: none;
-}
-a.icons-footer:active
-{
-   color: #fff;
-   text-decoration: none;
-}
-
 
 
 

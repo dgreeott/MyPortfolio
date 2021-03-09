@@ -4,43 +4,44 @@ import { Button } from "../Button";
 import "./Contact.css";
 
 class Contact extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       name: "",
       email: "",
-      subject: "",
-      muessage: "",
+      message: "",
+      status: "Submit",
     };
   }
 
-  onNameChange(event) {
-    this.setState({ name: event.target.value });
+  handleChange(event) {
+    const field = event.target.id;
+    if (field === "name") {
+      this.setState({ name: event.target.value });
+    } else if (field === "email") {
+      this.setState({ email: event.target.value });
+    } else if (field === "message") {
+      this.setState({ message: event.target.value });
+    }
   }
 
-  onEmailChange(event) {
-    this.setState({ email: event.target.value });
-  }
-
-  onMsgChange(event) {
-    this.setState({ message: event.target.value });
-  }
-
-  submitEmail(e) {
-    e.preventDefault();
+  handleSubmit(event) {
+    event.preventDefault();
+    this.setState({ status: "Sending" });
     axios({
       method: "POST",
-      url: "/send",
+      url: "http://localhost:5000/contact",
       data: this.state,
     }).then((response) => {
-      if (response.data.status === "sucess") {
-        alert("Message Sent.");
-        this.resetForm();
-      } else if (response.data.status === "fail") {
-        alert("Message failed to send.");
+      if (response.data.status === "sent") {
+        alert("Message Sent");
+        this.setState({ name: "", email: "", message: "", status: "Submit" });
+      } else if (response.data.status === "failed") {
+        alert("Message Failed");
       }
     });
   }
+
 
   resetForm() {
     this.setState({ name: "", email: "", subject: "", message: "" });
@@ -50,7 +51,7 @@ class Contact extends Component {
     return (
       <>
         <div className="container-fluid mb-5">
-          <div className="row text-center m-4">
+          <div className="row text-center m-5">
             <div className="container ">
               <h1 className="title">CONTACT ME!</h1>
               <h6>I WILL GET BACK TO YOU AS SOON AS POSSIBLE!</h6>
@@ -62,7 +63,7 @@ class Contact extends Component {
               <form
                 className="text-center"
                 id="contactForm"
-                onSubmit={this.submitEmail.bind(this)}
+                onSubmit={this.handleSubmit.bind(this)}
                 method="POST"
               >
                 <div className="formGroup">
@@ -74,7 +75,7 @@ class Contact extends Component {
                     className="formControl rounded m-4"
                     required
                     value={this.state.name}
-                    onChange={this.onNameChange.bind(this)}
+                    onChange={this.handleChange.bind(this)}
                   />
                 </div>
                 <div className="formGroup">
@@ -87,7 +88,7 @@ class Contact extends Component {
                     aria-describedby="emailHelp"
                     required
                     value={this.state.email}
-                    onChange={this.onEmailChange.bind(this)}
+                    onChange={this.handleChange.bind(this)}
                   />
                 </div>
                 <div className="formGroup">
@@ -99,7 +100,7 @@ class Contact extends Component {
                     className="formMessage rounded m-4"
                     required
                     value={this.state.message}
-                    onChange={this.onMsgChange.bind(this)}
+                    onChange={this.handleChange.bind(this)}
                   />
                 </div>
                 <div className="text-center">

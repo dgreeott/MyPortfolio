@@ -9,7 +9,7 @@ class Projects extends Component {
     return (
       <>
         <div className="container-fluid mb-5">
-          <div className="row justify-content-center m-4">
+          <div className="row justify-content-center m-5">
             <h1 className="title">PROJECTS</h1>
           </div>
 
@@ -19,8 +19,8 @@ class Projects extends Component {
                 <>
                   <div className="col-sm m-3">
                     <div className="row justify-content-center">
-                      <div className="img-wrap ">
-                      <Link to={item.url}>
+                      <div className="img-wrap">
+                        <Link to={item.url}>
                           <img
                             key={index}
                             className={item.cNameImg}
@@ -34,14 +34,7 @@ class Projects extends Component {
                             {item.text}
                           </p>
                           <h5>Used Tools</h5>
-                        </div>
-
-                        <div className="row justify-content-center mt-4">
-                          <div classname="col-sm">
-                            
-                              <Button>More...</Button>
-                            
-                          </div>
+                          <Button>More...</Button>
                         </div>
                       </div>
                     </div>

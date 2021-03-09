@@ -1,13 +1,9 @@
 import React, { Component } from "react";
 import "../css/Icons.css";
 
-import Doc from "../Resume_DG.pdf";
+
 
 class MediaIcons extends Component {
-
-  onResumeClick() {
-    window.open(Doc);
-  }
 
   render() {
     return (
@@ -38,7 +34,7 @@ class MediaIcons extends Component {
         </a>
         <a
           className="icons-resume"
-          onClick={(e) => this.onResumeClick(e)}
+          href="https://drakes-portfolio.s3-us-west-2.amazonaws.com/documents/Resume_DG.pdf"
           target="__blank"
           title="Resume"
         >

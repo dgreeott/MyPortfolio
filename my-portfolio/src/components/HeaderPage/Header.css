@@ -10,14 +10,12 @@
 }
 
 .headerText {
-    margin-top: 250px;
+    margin-top: 150px;
     background-color: rgba(248, 245, 242, .5);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
     width: 75%;
     justify-content: center;
 }
-
-
 
 /* Styls for the list (Project, About, Contact)*/
 ul.headerList {
@@ -46,4 +44,16 @@ ul.headerList {
     background-color: #111111;
   }
 
+
+  .btn-danger {
+    background-color: #f45d48;
+  }
+
+  .btn-danger:hover {
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #232323;
+    transition: 250ms;
+}
   
