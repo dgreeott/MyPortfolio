@@ -8,23 +8,32 @@ class WeatherProject extends Component {
     return (
       <>
         <div className="container-fluid mb-5">
-          <div className="row justify-content-center m-5">
-            <div className="col-sm-3 text-center">
-              <Button>Visit Website</Button>
+          <div className="container">
+            <div className="row justify-content-center m-5">
+              <div className="col-sm-3 text-center">
+                <Button>Visit Website</Button>
+              </div>
+              <div className="col-sm-6 text-center">
+                <h1>Weather Site</h1>
+              </div>
+              <div className="col-sm-3 text-center">
+                <Button>Visit Code</Button>
+              </div>
             </div>
-            <div className="col-sm-6 text-center">
-              <h1>Weather Site</h1>
-            </div>
-            <div className="col-sm-3 text-center">
-              <Button>Visit Code</Button>
+            <div className="row justify-conent-center m-4">
+              <div className="col-sm text-center">
+                <WeatherVideo />
+              </div>
             </div>
           </div>
-          <div className="row justify-conent-center m-4">
-            <div className="col-sm text-center">
-              <WeatherVideo />
+          <div className="container">
+            <div className="row justify-conent-center">
+              <div className="col-sm text-center mt-3">
+                <h2>Techinal Sheet</h2>
+              </div>
             </div>
+            <hr></hr>
           </div>
-          <div className="row"></div>
           <div className="container">
             <div className="row justify-conent-center mt-5">
               <div className="col-sm text-center">
@@ -62,14 +71,6 @@ class WeatherProject extends Component {
                 </p>
               </div>
               <div className="col-sm-2"></div>
-            </div>
-            <div className="container">
-              <div className="row justify-conent-center">
-                <div className="col-sm text-center mt-5">
-                  <h2>Techinal Sheet</h2>
-                </div>
-              </div>
-              <hr></hr>
             </div>
           </div>
         </div>

@@ -1,17 +1,14 @@
 import React from "react";
 import VideoPlayer from "react-video-js-player";
 import "./WeatherProject.css"
-import WeatherVideo from "./video/WeatherAppVideo.mp4";
 
 const VideoJS = () => {
-  const videoSrc = WeatherVideo;
-  const poster = "../img/WeatherProject.png";
+  const videoSrc = "https://drakes-portfolio.s3-us-west-2.amazonaws.com/video/WeatherAppVideo.mp4";
 
   return (
     <div className="row justify-content-center">
       <VideoPlayer
         src={videoSrc}
-        poster={poster}
         width="720"
         height="420"
         playbackeRate={[0.5, 1, 3.85, 16]}

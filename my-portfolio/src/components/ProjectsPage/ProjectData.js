@@ -1,12 +1,8 @@
-import zoeMazurk from "./img/ZoeProject.png";
-import weather from "./img/WeatherProject.png";
-import simplyHome from "./img/SimplyHomeProject.png";
-import ourHelp from "./img/OurHelpProject.png";
 
 export const Project = [
     {
       url: "/weatherapp",
-      imgSrc: weather,
+      imgSrc: "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/WeatherProject.png",
       cNameImg: "img rounded ",
       altImg: "Project 1",
       text:
@@ -17,7 +13,7 @@ export const Project = [
     },
     {
       url: "/zoemazurk",
-      imgSrc: zoeMazurk,
+      imgSrc: "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/ZoeProject.png",
       cNameImg: "img rounded",
       altImg: "Project 2",
       text:
@@ -28,7 +24,7 @@ export const Project = [
     },
     {
       url: "/simplyhome",
-      imgSrc: simplyHome,
+      imgSrc: "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/SimplyHomeProject.png",
       cNameImg: "img rounded",
       altImg: "Project 2",
       text:
@@ -39,7 +35,7 @@ export const Project = [
     },
     {
       url: "/ourhelpapp",
-      imgSrc: ourHelp,
+      imgSrc: "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/OurHelpProject.png",
       cNameImg: "img rounded",
       altImg: "Project 4",
       text:

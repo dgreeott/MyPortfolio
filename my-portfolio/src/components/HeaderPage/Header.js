@@ -3,7 +3,6 @@ import "./Header.css";
 import Typer from "../Typer";
 import { Link } from "react-router-dom";
 
-import forest from "./img/forest-1920.jpg";
 
 export const PageItems = [
   {
@@ -28,7 +27,7 @@ class Header extends Component {
     return (
       <div
         className="jumbotron jumbotron-fluid"
-        style={{ backgroundImage: `url(${forest})` }}
+        style={{ backgroundImage: `url(https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/forest-1920.jpg)` }}
       >
         <div className="container-fluid rounded p-3 headerText">
           <div className="row text-center m-2">

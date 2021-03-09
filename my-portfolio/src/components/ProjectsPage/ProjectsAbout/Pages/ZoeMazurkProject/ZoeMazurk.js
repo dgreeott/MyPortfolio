@@ -8,24 +8,40 @@ class ZoeMazurkProject extends Component {
     return (
       <>
         <div className="container-fluid mb-5">
-        <div className="row justify-content-center m-5">
-            <div className="col-sm-3 text-center">
-              <Button>Visit Website</Button>
+          <div className="container">
+            <div className="row justify-content-center m-5">
+              <div className="col-sm-3 text-center">
+                <a
+                  href="https://www.simplyhomeconsignments.com"
+                  target="__blank"
+                  title="Zoe Mazurk"
+                >
+                  <Button>Visit Website</Button>
+                </a>
+              </div>
+              <div className="col-sm-6 text-center">
+                <h1>Zoe Mazurk Portfolio</h1>
+              </div>
+              <div className="col-sm-3 text-center">
+                <Button>Visit Code</Button>
+              </div>
             </div>
-            <div className="col-sm-6 text-center">
-              <h1>Zoe Mazurk</h1>
-            </div>
-            <div className="col-sm-3 text-center">
-              <Button>Visit Code</Button>
-            </div>
-          </div>
-          <div className="row justify-conent-center m-4">
-            <div className="col-sm text-center">
-              <ZoeMazurkVideo />
+            <div className="row justify-conent-center m-4">
+              <div className="col-sm text-center">
+                <ZoeMazurkVideo />
+              </div>
             </div>
           </div>
           <div className="container">
-          <div className="row justify-conent-center mt-5">
+            <div className="row justify-conent-center">
+              <div className="col-sm text-center mt-3">
+                <h2>Techinal Sheet</h2>
+              </div>
+            </div>
+            <hr></hr>
+          </div>
+          <div className="container">
+            <div className="row justify-conent-center mt-5">
               <div className="col-sm text-center">
                 <h2>About This Project</h2>
               </div>
@@ -61,14 +77,6 @@ class ZoeMazurkProject extends Component {
                 </p>
               </div>
               <div className="col-sm-2"></div>
-            </div>
-            <div className="container">
-              <div className="row justify-conent-center">
-                <div className="col-sm text-center mt-5">
-                  <h2>Techinal Sheet</h2>
-                </div>
-              </div>
-              <hr></hr>
             </div>
           </div>
         </div>

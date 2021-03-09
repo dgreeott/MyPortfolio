@@ -51,7 +51,7 @@ class Contact extends Component {
     return (
       <>
         <div className="container-fluid mb-5">
-          <div className="row text-center m-4">
+          <div className="row text-center m-5">
             <div className="container ">
               <h1 className="title">CONTACT ME!</h1>
               <h6>I WILL GET BACK TO YOU AS SOON AS POSSIBLE!</h6>

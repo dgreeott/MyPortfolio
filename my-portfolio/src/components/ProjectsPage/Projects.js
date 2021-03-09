@@ -9,7 +9,7 @@ class Projects extends Component {
     return (
       <>
         <div className="container-fluid mb-5">
-          <div className="row justify-content-center m-4">
+          <div className="row justify-content-center m-5">
             <h1 className="title">PROJECTS</h1>
           </div>
 
