@@ -10,9 +10,8 @@
 }
 
 .headerText {
-    margin-top: 150px;
-    background-color: rgba(248, 245, 242, .5);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
+    margin-top: 200px;
+    color: #fff;
     width: 75%;
     justify-content: center;
 }

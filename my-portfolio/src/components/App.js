@@ -23,25 +23,12 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Helmet bodyAttributes={{ style: "background-image: linear-gradient(to bottom left, #f8f5f2, rgba(90, 116, 107, .9)" }} />
+        <Helmet bodyAttributes={{ style: "background-image: linear-gradient(to bottom, #f8f5f2, rgba(90, 116, 107, .9)" }} />
         <Switch>
           <Route path={"/"} exact>
             <Header />
-          </Route>
-          <Route path={"/about"}>
-            <Navbar />
-            <About />
-            <Icons />
-            <Footer />
-          </Route>
-          <Route path={"/projects"}>
-            <Navbar />
             <Projects />
-            <Icons />
-            <Footer />
-          </Route>
-          <Route path={"/contact"}>
-            <Navbar />
+            <About />
             <Contact />
             <Icons />
             <Footer />

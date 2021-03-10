@@ -12,13 +12,14 @@
     display: block;
     transition: all 0.3s ease;
     color: #232323;
-    font-size: 8px;
+    font-size: 10px;
   }
   
   /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
     background-color: #f45d48;
     color: white;
+    border-radius: 50%;
   }
 
   .fa-envelope, .fa-linkedin, .fa-github, .fa-file {
@@ -26,9 +27,7 @@
     margin: 1rem;
 }
 
-.icon-resume {
-  background-color: none;
-}
+
   
   
 
