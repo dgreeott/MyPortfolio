@@ -28,14 +28,15 @@ const contactEmail = nodemailer.createTransport({
   });
 
   router.post("/contact", (req, res) => {
-    const name = req.body.name;
+    const firstName = req.body.firstName;
+    const lastName = req.body.lastName;
     const email = req.body.email;
     const message = req.body.message; 
     const mail = {
-      from: name,
+      from: lastName, firstName,
       to: email,
       subject: "Contact Form Message",
-      html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p>`,
+      html: `<p>Name: ${lastName}, ${firstName}</p><p>Email: ${email}</p><p>Message: ${message}</p>`,
     };
     contactEmail.sendMail(mail, (error) => {
       if (error) {

@@ -1,23 +1,23 @@
 import React, { Component } from "react";
 import "./Footer.css";
 
-
-import Resume from "../Resume";
 import Skills from "./Skills";
 
 class Footer extends Component {
   render() {
     return (
-      <footer className="mt-3">
+      <footer>
         <div className="container">
-          <div className="row text-center">
-            <div className="col-lg-6 col-md-12  mb-md-0">
+          <div className="row text-center mt-5">
+            <div className="col-lg-8 col-md-12  mb-md-0">
               <Skills />
             </div>
-            <div className="col-lg-3 col-md-6 mb-md-0">
-              <h1 className="mb-3 mt-2">PROJECTS</h1>
-              <ul className="list-unstyled mb-1">
-                <li className="mb-2 text-center">
+            
+
+            <div className="col-lg-4 col-md-6 mb-md-0">
+              <h1 className="mb-4 mt-2">Projects</h1>
+              <ul className="list-unstyled mb-0">
+              <li className="mb-2 text-center">
                   <a href="weatherapp" className="footer text-light">
                     Weather Site
                   </a>
@@ -36,39 +36,6 @@ class Footer extends Component {
                   <a href="/ourhelpapp" className="footer text-light">
                     OurHelpApp Site
                   </a>
-                </li>
-                
-                
-              </ul>
-            </div>
-
-            <div className="col-lg-3 col-md-6 mb-md-0">
-              <h1 className="mb-3 mt-2">SECTIONS</h1>
-              <ul className="list-unstyled mb-0">
-                <li className="mb-2">
-                  <a href="/" className="footer text-light">
-                    Home
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="/projects" className="footer text-light">
-                    Projects
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="/about" className="footer text-light">
-                    About
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a href="/contact" className="footer text-light">
-                    Contact Me!
-                  </a>
-                </li>
-                <li>
-                <li className="">
-                  <Resume />
-                </li>
                 </li>
               </ul>
             </div>

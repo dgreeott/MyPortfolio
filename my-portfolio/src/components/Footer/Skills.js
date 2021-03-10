@@ -17,7 +17,7 @@ class Skills extends Component {
   render() {
     return (
       <div className="container-fluid text-center mb-5">
-        <h1 className="mb-3 mt-2">SKILLS</h1>
+        <h1 className="mb-3 mt-2">Skills</h1>
         <div className="row justify-content-center">
           <div className="col-sm">
             <FaHtml5 size={40} className="m-3" />

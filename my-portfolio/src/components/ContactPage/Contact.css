@@ -1,29 +1,71 @@
 
+.icons-contact {
+    background-color: #f45d48;
+}
 
+.formContainer {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.contactForm {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.info {
+    background-color: rgba(90, 116, 107);
+    color: #fff;
+    border-radius: 15px;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #dedede
+  }
+  input:focus {
+    border-color:rgba(90, 116, 107);
+  }
 
 .formControl {
-    background-color: #dedede;
-    min-width: 400px;
+    min-width: 300px;
     min-height: 40px;
 }
 
 .formMessage {
-    background-color: #dedede;
-    min-width: 400px;
-    min-height: 200px;
+    min-width: 600px;
+    min-height: 100px;
 }
 
+
+.formBtn {
+    background: #f45d48;
+    color: #fff;
+
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.formBtn:hover {
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: rgba(90, 116, 107);
+    color: #fff;
+    transition: 250ms;
+}
 
 @media screen and (max-width: 960px) {
 
     .formControl {
-        background-color: #dedede;
         min-width: 100%;
         min-height: 100%;
     }
     
     .formMessage {
-        background-color: #dedede;
         min-width: 100%;
         min-height: 100%;
     }

@@ -10,6 +10,16 @@ class SimplyHomeProject extends Component {
         <div className="container-fluid mb-5">
           <div className="container">
             <div className="row justify-content-center m-5">
+              <div className="col-sm text-center">
+                <h1>Simply Home Consignments</h1>
+              </div>
+            </div>
+            <div className="row justify-conent-center m-4">
+              <div className="col-sm text-center">
+                <SimplyHomeVideo />
+              </div>
+            </div>
+            <div className="row justify-content-center m-5">
               <div className="col-sm-3 text-center">
                 <a
                   href="https://www.simplyhomeconsignments.com"
@@ -19,16 +29,8 @@ class SimplyHomeProject extends Component {
                   <Button>Visit Website</Button>
                 </a>
               </div>
-              <div className="col-sm-6 text-center">
-                <h1>Simply Home Consignments</h1>
-              </div>
               <div className="col-sm-3 text-center">
                 <Button>Visit Code</Button>
-              </div>
-            </div>
-            <div className="row justify-conent-center m-4">
-              <div className="col-sm text-center">
-                <SimplyHomeVideo />
               </div>
             </div>
           </div>

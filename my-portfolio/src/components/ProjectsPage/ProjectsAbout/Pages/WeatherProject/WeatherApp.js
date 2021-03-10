@@ -10,19 +10,21 @@ class WeatherProject extends Component {
         <div className="container-fluid mb-5">
           <div className="container">
             <div className="row justify-content-center m-5">
-              <div className="col-sm-3 text-center">
-                <Button>Visit Website</Button>
-              </div>
               <div className="col-sm-6 text-center">
                 <h1>Weather Site</h1>
-              </div>
-              <div className="col-sm-3 text-center">
-                <Button>Visit Code</Button>
               </div>
             </div>
             <div className="row justify-conent-center m-4">
               <div className="col-sm text-center">
                 <WeatherVideo />
+              </div>
+            </div>
+            <div className="row justify-content-center m-5">
+              <div className="col-sm-3 text-center">
+                <Button>Visit Website</Button>
+              </div>
+              <div className="col-sm-3 text-center">
+                <Button>Visit Code</Button>
               </div>
             </div>
           </div>
