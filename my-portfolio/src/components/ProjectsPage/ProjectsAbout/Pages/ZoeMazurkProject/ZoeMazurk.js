@@ -1,7 +1,12 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import ZoeMazurkVideo from "./ZoeMazurkVideo";
 
 import { Button } from "../../../../Button";
+
+import { FaHtml5, FaJsSquare, FaCss3Alt, FaReact } from "react-icons/fa";
+import { SiBootstrap } from "react-icons/si";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 class ZoeMazurkProject extends Component {
   render() {
@@ -10,13 +15,31 @@ class ZoeMazurkProject extends Component {
         <div className="container-fluid mb-5">
           <div className="container">
             <div className="row justify-content-center m-5">
-              <div className="col-sm-6 text-center">
-                <h1>Zoe Mazurk Portfolio</h1>
+              <div className="col-sm text-center">
+                <h1 className="display-4">Zoe Mazurk Portfolio</h1>
               </div>
             </div>
             <div className="row justify-conent-center m-4">
-              <div className="col-sm text-center">
+              <div className="col-sm-2 text-center align-self-center">
+                <Link
+                  className="icon-arrows"
+                  to="/weatherapp"
+                  title="Zoe Mazurk"
+                >
+                  <IoIosArrowBack size={50} />
+                </Link>
+              </div>
+              <div className="col-sm-8 text-center">
                 <ZoeMazurkVideo />
+              </div>
+              <div className="col-sm-2 text-center align-self-center">
+                <Link
+                  className="icon-arrows"
+                  to="/simplyhome"
+                  title="Zoe Mazurk"
+                >
+                  <IoIosArrowForward size={50} />
+                </Link>
               </div>
             </div>
             <div className="row justify-content-center m-5">
@@ -37,7 +60,32 @@ class ZoeMazurkProject extends Component {
           <div className="container">
             <div className="row justify-conent-center">
               <div className="col-sm text-center mt-3">
-                <h2>Techinal Sheet</h2>
+                <div className="row justify-conent-center">
+                  <div className="col-sm text-center mb-3">
+                    <h2>Techinal Sheet</h2>
+                  </div>
+                </div>
+                <div className="container">
+                  <div className="row justify-content-center">
+                    <div className="col-sm"></div>
+                    <div className="col-sm">
+                      <FaHtml5 size={40} />
+                    </div>
+                    <div className="col-sm">
+                      <FaCss3Alt size={40} />
+                    </div>
+                    <div className="col-sm">
+                      <FaJsSquare size={40} />
+                    </div>
+                    <div className="col-sm">
+                      <FaReact size={40} />
+                    </div>
+                    <div className="col-sm">
+                      <SiBootstrap size={40} />
+                    </div>
+                    <div className="col-sm"></div>
+                  </div>
+                </div>
               </div>
             </div>
             <hr></hr>
