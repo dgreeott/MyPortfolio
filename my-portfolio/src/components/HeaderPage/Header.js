@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./Header.css";
 import Typer from "../Typer";
-import { Link } from "react-router-dom";
+import { AiFillDownCircle } from "react-icons/ai";
+
 
 
 export const PageItems = [
@@ -28,8 +29,13 @@ class Header extends Component {
           <div className="row text-center m-3">
             <div className="col-sm">
               <Typer 
-                dataText={["Software Developer", "Welcome to my website"]}
+                dataText={["Software Developer", "Welcome to my website!"]}
               />
+            </div>
+          </div>
+          <div className="row text-center m-5">
+            <div className="col-sm">
+              <AiFillDownCircle size={50} />
             </div>
           </div>
           
