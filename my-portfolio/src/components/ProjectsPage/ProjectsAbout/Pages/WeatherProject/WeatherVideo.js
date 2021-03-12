@@ -1,6 +1,6 @@
 import React from "react";
 import VideoPlayer from "react-video-js-player";
-import "./WeatherProject.css"
+import "../../../Projects.css"
 
 const VideoJS = () => {
   const videoSrc = "https://drakes-portfolio.s3-us-west-2.amazonaws.com/video/WeatherAppVideo.mp4";

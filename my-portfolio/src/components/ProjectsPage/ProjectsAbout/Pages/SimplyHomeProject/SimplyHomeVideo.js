@@ -1,6 +1,6 @@
 import React from "react";
 import VideoPlayer from "react-video-js-player";
-import "./SimplyHomeProject.css";
+import "../../../Projects.css"
 import SimplyHomeVideo from "../WeatherProject/video/WeatherAppVideo.mp4";
 
 const VideoJS = () => {
