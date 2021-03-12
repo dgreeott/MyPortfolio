@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../../../../Button";
+import "../../../Projects.css"
 
 import SimplyHomeVideo from "./SimplyHomeVideo";
 
@@ -20,7 +21,7 @@ class SimplyHomeProject extends Component {
           </div>
           <div className="row justify-conent-center m-4">
             <div className="col-sm-2 text-center align-self-center">
-              <Link className="icon-arrows" to="/zoemazurk" title="OurHelpApp">
+              <Link className="icon-arrows" to="/zoemazurk" title="Zoe Mazurk">
                 <IoIosArrowBack size={50} />
               </Link>
             </div>

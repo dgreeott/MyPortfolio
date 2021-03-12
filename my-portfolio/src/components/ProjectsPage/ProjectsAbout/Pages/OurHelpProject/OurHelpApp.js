@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../../../../Button";
+import "../../../Projects.css"
 
 import OurHelpVideo from "./OurHelpVideo";
 
@@ -12,7 +13,7 @@ class OurHelpProject extends Component {
   render() {
     return (
       <>
-        <div className="container-fluid mt-5">
+        <div className="container-fluid mb-5">
           <div className="row justify-content-center m-5">
             <div className="col-sm text-center">
               <h1 className="display-4">OurHelpApp</h1>
@@ -20,7 +21,7 @@ class OurHelpProject extends Component {
           </div>
           <div className="row justify-conent-center m-4">
             <div className="col-sm-2 text-center align-self-center">
-              <Link className="icon-arrows" to="/simplyhome" title="OurHelpApp">
+              <Link className="icon-arrows" to="/simplyhome" title="Simply Home Consignment">
                 <IoIosArrowBack size={50} />
               </Link>
             </div>
