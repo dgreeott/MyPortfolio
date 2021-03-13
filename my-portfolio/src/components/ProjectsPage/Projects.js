@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import ScrollableAnchor from "react-scrollable-anchor";
 import "./Projects.css";
 import { Button } from "../Button";
 import { Project } from "./ProjectData";
@@ -11,7 +12,9 @@ class Projects extends Component {
         <div className="container-fluid">
           <div className="row justify-content-center m-5">
             <div className="row justify-content-center m-5">
-              <h1 className="display-4">My Work</h1>
+              <ScrollableAnchor id={"section1"}>
+                <h1 className="display-4">My Work</h1>
+              </ScrollableAnchor>
             </div>
 
             <div className="row">
@@ -31,10 +34,11 @@ class Projects extends Component {
                           </Link>
                           <div className="img-description m-5">
                             <h3>{item.title}</h3>
-                            <p key={index} className={item.cNameText}>
+                            <h5 key={index} className={item.cNameText}>
                               {item.text}
-                            </p>
-                            <h5>Used Tools</h5>
+                            </h5>
+                            <h5>{item.icon1}{item.icon2}{item.icon3}{item.icon4}</h5>
+                            
                             <Button>More...</Button>
                           </div>
                         </div>
