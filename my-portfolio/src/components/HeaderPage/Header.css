@@ -44,15 +44,14 @@ ul.headerList {
   }
 
 
-  .btn-danger {
-    background-color: #f45d48;
+  .downArrow {
+    color: #fff;
   }
 
-  .btn-danger:hover {
+  .downArrow:hover {
     padding: 8px 20px;
     transition: all 0.3s ease-out;
-    background: #fff;
-    color: #232323;
+    color: #f45d48;
     transition: 250ms;
 }
   

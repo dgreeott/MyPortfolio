@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import "./Header.css";
 import Typer from "../Typer";
+
 import { AiFillDownCircle } from "react-icons/ai";
-
-
 
 export const PageItems = [
   {
@@ -18,7 +17,9 @@ class Header extends Component {
     return (
       <div
         className="jumbotron jumbotron-fluid"
-        style={{ backgroundImage: `url(https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/forest-1920.jpg)` }}
+        style={{
+          backgroundImage: `url(https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/forest-1920.jpg)`,
+        }}
       >
         <div className="container-fluid rounded p-3 headerText">
           <div className="row text-center m-5">
@@ -28,17 +29,18 @@ class Header extends Component {
           </div>
           <div className="row text-center m-3">
             <div className="col-sm">
-              <Typer 
+              <Typer
                 dataText={["Software Developer", "Welcome to my website!"]}
               />
             </div>
           </div>
           <div className="row text-center m-5">
             <div className="col-sm">
-              <AiFillDownCircle size={50} />
+              <a href="#section1" className="downArrow">
+                <AiFillDownCircle size={50} />
+              </a>
             </div>
           </div>
-          
         </div>
       </div>
     );
