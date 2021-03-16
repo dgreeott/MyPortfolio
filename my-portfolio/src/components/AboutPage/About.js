@@ -2,14 +2,17 @@ import { React, Component } from "react";
 /*import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";*/
 import "./About.css";
 
+import Content from "../Content";
+
 class About extends Component {
   render() {
     return (
       <>
         <div className="container-fluid about text-light">
           <div className="row justify-content-center m-5">
-            <div className="row m-5">
-              <div className="col-sm">
+            <div className="row justify-content-center m-5">
+              <Content />
+              <div className="col-sm text-center">
                 <h1 className="display-4">About Me</h1>
               </div>
             </div>

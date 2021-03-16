@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FormspreeProvider } from '@formspree/react';
+import { FormspreeProvider } from "@formspree/react";
 /*import axios from "axios";*/
 import "./Contact.css";
 import ContacForm from "./ContactForm";
@@ -8,21 +8,18 @@ import { IconContext } from "react-icons";
 import { FiPhone } from "react-icons/fi";
 import { MdLocationOn, MdEmail } from "react-icons/md";
 
-
 class Contact extends Component {
-
   render(pageProps) {
     return (
       <>
         <IconContext.Provider value={{ color: "#ffff" }}>
           <div className="container-fluid">
             <div className="row justify-content-center m-5">
-              <div className="row justify-content-center m-5">
-                <div classNamne="col-sm text-center">
-                  <h1 className="display-4">Contact Me!</h1>
-                </div>
+              <div classNamne="col-sm text-center">
+                <h1 className="display-4">Contact Me!</h1>
               </div>
-
+            </div>
+            <div className="row justify-content-center m-5">
               <div className="container formContainer">
                 <div className="row p-2">
                   <div className="col-sm-4 info">
@@ -51,9 +48,9 @@ class Contact extends Component {
                     </div>
                   </div>
                   <FormspreeProvider project={"1631743260328198067"}>
-                  <div className="col-sm-8 form">
-                    <ContacForm  />
-                  </div>
+                    <div className="col-sm-8 form">
+                      <ContacForm />
+                    </div>
                   </FormspreeProvider>
                 </div>
               </div>

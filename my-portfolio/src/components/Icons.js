@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "../css/Icons.css";
 
-
-
 class MediaIcons extends Component {
 
   render() {

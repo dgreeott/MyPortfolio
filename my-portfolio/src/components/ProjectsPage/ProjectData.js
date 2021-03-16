@@ -1,5 +1,6 @@
 import { FaHtml5, FaJsSquare, FaCss3Alt, FaReact } from "react-icons/fa";
-import { SiBootstrap } from "react-icons/si";
+import { FaWordpress, FaAws } from "react-icons/fa";
+import { SiCloudflare, SiPlesk, SiBootstrap } from "react-icons/si";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 export const Project = [
@@ -10,13 +11,13 @@ export const Project = [
     cNameImg: "img rounded",
     altImg: "Project 1",
     title: "Weather Site",
-    text: "A project to display data from weather and covid API's.",
-    cNameText: "card-text m-5",
+    text: "In this project you will see the minupulation of data from both a weather and covid API.",
+    cNameText: "text-center m-4",
     icon1: <FaHtml5 size={30} />,
     icon2: <FaCss3Alt size={30} />,
     icon3: <FaJsSquare size={30} />,
     icon4: <FaReact size={30} />,
-    cNameIcons: "m-2"
+    cNameIcons: "m-4",
   },
   {
     url: "/zoemazurk",
@@ -25,9 +26,15 @@ export const Project = [
     cNameImg: "img rounded",
     altImg: "Project 2",
     title: "Zoe Mazurk",
+    cNameTitle:"mb-3",
     text:
-      "This project was to help a friend with their art portfolio.",
-    cNameText: "card-text m-5",
+      "When learning React, I signed up to help a friend create a website to display her art work on.",
+    cNameText: " m-4",
+    icon1: <FaHtml5 size={30} />,
+    icon2: <FaCss3Alt size={30} />,
+    icon3: <FaJsSquare size={30} />,
+    icon4: <FaReact size={30} />,
+    cNameIcons: "m-4",
   },
   {
     url: "/simplyhome",
@@ -37,8 +44,12 @@ export const Project = [
     altImg: "Project 2",
     title: "Simply Home Consignments",
     text:
-      "On this project, I spent time creating the front-end layout with Bootstrap.",
-    cNameText: "card-text m-5",
+      "Simply Home Consignments was looking to updating their front-end layout, design, and code. I used the Bootstrap framework in developing the front-end",
+    cNameText: "text-center m-4",
+    icon1: <FaHtml5 size={30} />,
+    icon2: <FaCss3Alt size={30} />,
+    icon3: <SiBootstrap size={30} />,
+    cNameIcons: "m-4",
   },
   {
     url: "/ourhelpapp",
@@ -48,7 +59,12 @@ export const Project = [
     altImg: "Project 4",
     title: "OurHelpApp",
     text:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    cNameText: "card-text m-5",
+      "The OurHelpApp was my group project for my capstone. We had to create an a Covid help app for an apartment, and create the documentation for the develoment of this site.",
+    cNameText: "text-center m-4",
+    icon1: <FaWordpress size={30} />,
+    icon2: <FaAws size={30} />,
+    icon3: <SiCloudflare size={30} />,
+    icon4: <SiPlesk size={30} />,
+    cNameIcons: "m-4",
   },
 ];

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../../../../Button";
-import "../../../Projects.css"
+import "../../../Projects.css";
+import Content from "../../../../Content";
 
 import SimplyHomeVideo from "./SimplyHomeVideo";
 
@@ -15,6 +16,7 @@ class SimplyHomeProject extends Component {
       <>
         <div className="container-fluid mb-5">
           <div className="row justify-content-center m-5">
+          <Content />
             <div className="col-sm text-center">
               <h1 className="display-4">Simply Home Consignments</h1>
             </div>

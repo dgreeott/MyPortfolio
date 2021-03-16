@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import ZoeMazurkVideo from "./ZoeMazurkVideo";
-import "../../../Projects.css"
+import "../../../Projects.css";
+import Content from "../../../../Content";
 
 import { Button } from "../../../../Button";
 
@@ -15,6 +16,7 @@ class ZoeMazurkProject extends Component {
       <>
         <div className="container-fluid mb-5">
           <div className="row justify-content-center m-5">
+            <Content />
             <div className="col-sm text-center">
               <h1 className="display-4">Zoe Mazurk Portfolio</h1>
             </div>
@@ -54,7 +56,9 @@ class ZoeMazurkProject extends Component {
               </a>
             </div>
             <div className="col-sm-3 text-center">
-              <Button>Visit Code</Button>
+            <a href="https://github.com/dgreeott/zoe-mazurk" target="__blank">
+                <Button>Visit Code</Button>
+              </a>
             </div>
           </div>
         </div>

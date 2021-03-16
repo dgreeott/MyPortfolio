@@ -1,10 +1,9 @@
 import React from "react";
 import VideoPlayer from "react-video-js-player";
 import "../../../Projects.css"
-import OurHelpVideo from "../WeatherProject/video/WeatherAppVideo.mp4";
 
 const VideoJS = () => {
-  const videoSrc = OurHelpVideo;
+  const videoSrc = "https://drakes-portfolio.s3-us-west-2.amazonaws.com/video/OurHelpAppVideo.mp4";
 
   return (
     <div className="row justify-content-center">
