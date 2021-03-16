@@ -37,7 +37,7 @@ class Projects extends Component {
                             <h5 key={index} className={item.cNameText}>
                               {item.text}
                             </h5>
-                            <h5>{item.icon1}{item.icon2}{item.icon3}{item.icon4}</h5>
+                            <h5 className={item.cNameIcons}>{item.icon1}{item.icon2}{item.icon3}{item.icon4}</h5>
                             
                             <Button>More...</Button>
                           </div>

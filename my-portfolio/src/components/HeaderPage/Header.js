@@ -21,13 +21,13 @@ class Header extends Component {
           backgroundImage: `url(https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/forest-1920.jpg)`,
         }}
       >
-        <div className="container-fluid rounded p-3 headerText">
-          <div className="row text-center m-5">
+        <div className="container-fluid rounded headerText">
+          <div className="row text-center">
             <div className="col-sm">
               <h1 className="display-3">DRAKE GREEOTT</h1>
             </div>
           </div>
-          <div className="row text-center m-3">
+          <div className="row text-center">
             <div className="col-sm">
               <Typer
                 dataText={["Software Developer", "Welcome to my website!"]}
