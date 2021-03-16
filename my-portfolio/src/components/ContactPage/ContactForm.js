@@ -55,7 +55,7 @@ function ContactForm() {
 
   return (
     <form
-      className="m-5"
+      className="m-3"
       id="contactForm"
       onSubmit={handleSubmit}
       action={`"https://formspree.io/p/${REACT_PROJECT_ID}/f/contactForm"`}
@@ -99,31 +99,40 @@ function ContactForm() {
       </div>
 
       <div className="row mb-5">
-        <div className="formGroup">
-          <h5>Mail</h5>
-          <input
-            id="email"
-            type="email"
-            name="email"
-            className="formControl rounded"
-            aria-describedby="emailHelp"
-            required
-          />
-          <ValidationError prefix="Email" field="email" errors={state.errors} />
+        <div className="col-sm-6">
+          <div className="formGroup">
+            <h5>Mail</h5>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              className="formControl"
+              aria-describedby="emailHelp"
+              required
+            />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
+            />
+          </div>
         </div>
-        <div className="formGroup ml-3">
-          <h5>Phone</h5>
-          <input
-            id="phone"
-            type="phone"
-            name="phone"
-            className="formControl"
-            aria-describedby="phoneHelp"
-            required
-          />
+        <div className="col-sm-6">
+          <div className="formGroup">
+            <h5>Phone</h5>
+            <input
+              id="phone"
+              type="phone"
+              name="phone"
+              className="formControl"
+              aria-describedby="phoneHelp"
+              required
+            />
+          </div>
         </div>
       </div>
-      <div className="row mb-5">
+      <div className="row mb-4">
+      <div className="col-sm-12">
         <div className="formGroup">
           <h5>Message</h5>
           <input
@@ -140,6 +149,7 @@ function ContactForm() {
             errors={state.errors}
           />
         </div>
+      </div>
       </div>
       <div className="row justify-content-end mb-4 float-right">
         <div className="col-sm ">

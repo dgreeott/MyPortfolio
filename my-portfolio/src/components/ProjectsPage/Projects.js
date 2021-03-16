@@ -32,13 +32,17 @@ class Projects extends Component {
                               alt={item.altImg}
                             />
                           </Link>
-                          <div className="img-description m-5">
-                            <h3>{item.title}</h3>
+                          <div className="img-description mt-5">
+                            <h3 key={index} className={item.cNameTitle}>{item.title}</h3>
                             <h5 key={index} className={item.cNameText}>
                               {item.text}
                             </h5>
-                            <h5 className={item.cNameIcons}>{item.icon1}{item.icon2}{item.icon3}{item.icon4}</h5>
-                            
+                            <h5 key={index} className={item.cNameIcons}>
+                              {item.icon1}{" "}
+                              {item.icon2}{" "}
+                              {item.icon3}{" "}
+                              {item.icon4}{" "}
+                            </h5>
                             <Button>More...</Button>
                           </div>
                         </div>

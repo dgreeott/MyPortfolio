@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../../../../Button";
-import "../../../Projects.css"
+import "../../../Projects.css";
+import Content from "../../../../Content";
 
 import WeatherVideo from "./WeatherVideo";
 
@@ -15,6 +16,7 @@ class WeatherProject extends Component {
       <>
         <div className="container-fluid mb-5">
           <div className="row justify-content-center m-5">
+            <Content />
             <div className="col-sm text-center">
               <h1 className="display-4">Weather Site</h1>
             </div>
@@ -39,7 +41,9 @@ class WeatherProject extends Component {
               <Button>Visit Website</Button>
             </div>
             <div className="col-sm-3 text-center">
-              <Button>Visit Code</Button>
+              <a href="https://github.com/dgreeott/weather-site" target="__blank">
+                <Button>Visit Code</Button>
+              </a>
             </div>
           </div>
         </div>
