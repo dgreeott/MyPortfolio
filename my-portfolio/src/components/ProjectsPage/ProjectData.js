@@ -12,10 +12,11 @@ export const Project = [
     title: "Weather Site",
     text: "A project to display data from weather and covid API's.",
     cNameText: "card-text m-5",
-    icon1: <FaHtml5 size={40} />,
-    icon2: <FaHtml5 size={40} />,
-    icon3: <FaHtml5 size={40} />,
-    icon4: <FaHtml5 size={40} />,
+    icon1: <FaHtml5 size={30} />,
+    icon2: <FaCss3Alt size={30} />,
+    icon3: <FaJsSquare size={30} />,
+    icon4: <FaReact size={30} />,
+    cNameIcons: "m-2"
   },
   {
     url: "/zoemazurk",

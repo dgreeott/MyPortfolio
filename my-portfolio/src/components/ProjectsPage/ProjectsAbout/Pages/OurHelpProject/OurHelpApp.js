@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../../../../Button";
-import "../../../Projects.css"
+import "../../../Projects.css";
 
 import OurHelpVideo from "./OurHelpVideo";
 
@@ -21,7 +21,11 @@ class OurHelpProject extends Component {
           </div>
           <div className="row justify-conent-center m-4">
             <div className="col-sm-2 text-center align-self-center">
-              <Link className="icon-arrows" to="/simplyhome" title="Simply Home Consignment">
+              <Link
+                className="icon-arrows"
+                to="/simplyhome"
+                title="Simply Home Consignment"
+              >
                 <IoIosArrowBack size={50} />
               </Link>
             </div>
@@ -45,7 +49,13 @@ class OurHelpProject extends Component {
               </a>
             </div>
             <div className="col-sm-3 text-center">
-              <Button>Documentation</Button>
+              <a
+                href="https://drakes-portfolio.s3-us-west-2.amazonaws.com/documents/OurHelpApp_Doc.docx"
+                target="__blank"
+                title="Documentation"
+              >
+                <Button>Documentation</Button>
+              </a>
             </div>
           </div>
         </div>
