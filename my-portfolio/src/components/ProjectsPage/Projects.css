@@ -1,11 +1,10 @@
-
 .projectRow {
   background-color: #fff;
   border-radius: 15px;
 }
 
 .img-wrap {
-    position: relative;
+  position: relative;
   top: 0px;
   left: 0px;
   width: 450px;
@@ -14,21 +13,23 @@
 }
 
 .img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-  }
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
 
-  .img:hover {
-    opacity: 0;
-    transition: opacity 1s, visibility 1s;
-  }
+.img:hover {
+  opacity: 0;
+  transition: opacity 1s, visibility 1s;
+}
 
 .img-description {
   width: 100%;
-    height: 100%;
-    z-index: 1;
-    display: inline-block;
+  height: 100%;
+  z-index: 1;
+  display: inline-block;
 }
 
 /* About Project Styles */
@@ -38,25 +39,37 @@ hr {
   width: 75%;
   background-color: #484848;
   border: 0;
+}
+
+/* Video Style */
+.video-js {
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.vjs-poster {
+  border-radius: 10px;
+}
+
+.icon-arrows {
+  display: block;
+  transition: all 0.3s ease;
+  color: #f45d48;
+  font-size: 10px;
+}
+
+.icon-arrows:hover {
+  color: rgba(90, 116, 107, 0.9);
+}
+
+@media screen and (max-width: 850px) {
+
+  .icon-arrows {
+    margin-bottom: 20px;
+    margin-top: 20px
   }
-  
-  /* Video Style */
-  .video-js {
-    border-radius: 10px;
+
+  .linkBtn {
+    margin-top: 20px;
   }
-  
-  .vjs-poster {
-    border-radius: 10px;
-  }
-  
-  
-    .icon-arrows {
-      display: block;
-      transition: all 0.3s ease;
-      color: #f45d48;
-      font-size: 10px;
-    }
-    
-    .icon-arrows:hover {
-      color:  rgba(90, 116, 107, .9);
-    }
+}

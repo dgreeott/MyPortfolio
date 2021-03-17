@@ -10,14 +10,15 @@ class Projects extends Component {
     return (
       <>
         <div className="container-fluid">
-          <div className="row justify-content-center m-5">
-            <div className="row justify-content-center m-5">
+          <div className="row justify-content-center">
+            <div className="col-sm text-center">
               <ScrollableAnchor id={"section1"}>
                 <h1 className="display-4">My Work</h1>
               </ScrollableAnchor>
             </div>
+          </div>
 
-            <div className="row">
+          <div className="row justify-content-center mb-5">
               {Project.map((item, index) => {
                 return (
                   <>
@@ -33,14 +34,14 @@ class Projects extends Component {
                             />
                           </Link>
                           <div className="img-description mt-5">
-                            <h3 key={index} className={item.cNameTitle}>{item.title}</h3>
+                            <h3 key={index} className={item.cNameTitle}>
+                              {item.title}
+                            </h3>
                             <h5 key={index} className={item.cNameText}>
                               {item.text}
                             </h5>
                             <h5 key={index} className={item.cNameIcons}>
-                              {item.icon1}{" "}
-                              {item.icon2}{" "}
-                              {item.icon3}{" "}
+                              {item.icon1}{" "} {item.icon2}{" "} {item.icon3}{" "}
                               {item.icon4}{" "}
                             </h5>
                             <Button>More...</Button>
@@ -53,7 +54,6 @@ class Projects extends Component {
               })}
             </div>
           </div>
-        </div>
       </>
     );
   }

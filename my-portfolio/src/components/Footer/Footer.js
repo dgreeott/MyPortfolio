@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 import Skills from "./Skills";
@@ -18,24 +19,24 @@ class Footer extends Component {
               <h1 className="mb-4 mt-2">Projects</h1>
               <ul className="list-unstyled mb-0">
               <li className="mb-2 text-center">
-                  <a href="weatherapp" className="footer text-light">
+                  <Link to="/weatherapp" className="footer text-light">
                     Weather Site
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="zoemazurk" className="footer text-light">
+                  <Link to="/zoemazurk" className="footer text-light">
                     Zoe Mazurk Site
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="/simplyhome" className="footer text-light">
+                  <Link to="/simplyhome" className="footer text-light">
                     Simply Home Site
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a href="/ourhelpapp" className="footer text-light">
+                  <Link to="/ourhelpapp" className="footer text-light">
                     OurHelpApp Site
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

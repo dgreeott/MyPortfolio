@@ -48,7 +48,7 @@ class ZoeMazurkProject extends Component {
           <div className="row justify-content-center m-5">
             <div className="col-sm-3 text-center">
               <a
-                href="https://www.simplyhomeconsignments.com"
+                href="https://www.zoemazurk.com"
                 target="__blank"
                 title="Zoe Mazurk"
               >

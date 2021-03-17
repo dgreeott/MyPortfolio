@@ -22,14 +22,14 @@ class Header extends Component {
         }}
       >
         <div className="container-fluid rounded headerText">
-          <div className="row text-center">
-            <div className="col-sm">
-              <h1 className="display-3">DRAKE GREEOTT</h1>
+          <div className="row justify-content-center">
+            <div className="col-sm text-center">
+              <h1 className="display-3 headerName">DRAKE GREEOTT</h1>
             </div>
           </div>
-          <div className="row text-center">
-            <div className="col-sm">
-              <Typer
+          <div className="row text-center ">
+            <div className="col-sm ">
+              <Typer className="headerTyper"
                 dataText={["Software Developer", "Welcome to my website!"]}
               />
             </div>
