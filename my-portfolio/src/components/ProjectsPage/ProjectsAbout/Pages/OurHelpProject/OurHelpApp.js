@@ -40,17 +40,18 @@ class OurHelpProject extends Component {
               </Link>
             </div>
           </div>
-          <div className="row justify-content-center m-5">
-            <div className="col-sm-3 text-center">
+          <div className="row justify-content-center">
+            <div className="col-sm">
               <a
                 href="https://www.ourhelpapp.com"
                 target="__blank"
                 title="OurHelpApp"
+                className=""
               >
                 <Button>Visit Website</Button>
               </a>
             </div>
-            <div className="col-sm-3 text-center">
+            <div className="col-sm text-center">
               <a
                 href="https://drakes-portfolio.s3-us-west-2.amazonaws.com/documents/OurHelpApp_Doc.docx"
                 target="__blank"
@@ -63,7 +64,7 @@ class OurHelpProject extends Component {
         </div>
         <div className="container">
           <div className="row justify-conent-center">
-            <div className="col-sm text-center mt-3">
+            <div className="col-sm text-center">
               <div className="row justify-conent-center">
                 <div className="col-sm text-center mb-3">
                   <h2>Techinal Sheet</h2>

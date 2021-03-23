@@ -27,7 +27,9 @@
     "react-router-hash-link": "^2.3.1",
     "react-scripts": "^4.0.0",
     "react-scrollable-anchor": "^0.6.1",
+    "react-spring": "^9.0.0",
     "react-video-js-player": "^1.1.1",
+    "react-visibility-sensor": "^5.1.1",
     "serve": "^11.3.2",
     "web-vitals": "^0.2.4",
     "webfontloader": "^1.6.28"

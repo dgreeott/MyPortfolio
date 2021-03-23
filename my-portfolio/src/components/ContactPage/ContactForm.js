@@ -151,8 +151,8 @@ function ContactForm() {
         </div>
       </div>
       </div>
-      <div className="row justify-content-end mb-4 float-right">
-        <div className="col-sm ">
+      <div className="row mb-4 float-right">
+        <div className="col-sm">
           <button
             className="btn formBtn"
             type="submit"

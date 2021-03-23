@@ -1,3 +1,17 @@
 .about {
-    background-color:rgba(90, 116, 107, .9);
+  background-color: rgba(90, 116, 107, 0.9);
+  color: #fff;
 }
+
+.aboutRow {
+  margin: 4rem;
+}
+
+.headerRow {
+  margin: 1rem;
+}
+
+p.aboutText {
+  line-height: 200%;
+}
+
