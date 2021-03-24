@@ -16,9 +16,8 @@ class ZoeMazurkProject extends Component {
       <>
         <div className="container-fluid mb-5">
           <div className="row justify-content-center m-5">
-            <Content />
             <div className="col-sm text-center">
-              <h1 className="display-4">Zoe Mazurk Portfolio</h1>
+              <h1 className="display-3 text-center">Zoe Mazurk Portfolio</h1>
             </div>
           </div>
           <div className="row justify-conent-center m-4">
@@ -46,7 +45,7 @@ class ZoeMazurkProject extends Component {
             </div>
           </div>
           <div className="row justify-content-center m-5">
-            <div className="col-sm-3 text-center">
+            <div className="col-sm-3 text-center mb-5">
               <a
                 href="https://www.zoemazurk.com"
                 target="__blank"
@@ -56,7 +55,7 @@ class ZoeMazurkProject extends Component {
               </a>
             </div>
             <div className="col-sm-3 text-center">
-            <a href="https://github.com/dgreeott/zoe-mazurk" target="__blank">
+              <a href="https://github.com/dgreeott/zoe-mazurk" target="__blank">
                 <Button>Visit Code</Button>
               </a>
             </div>
@@ -72,7 +71,6 @@ class ZoeMazurkProject extends Component {
               </div>
               <div className="container">
                 <div className="row justify-content-center">
-                  <div className="col-sm"></div>
                   <div className="col-sm">
                     <FaHtml5 size={40} />
                   </div>
@@ -88,12 +86,10 @@ class ZoeMazurkProject extends Component {
                   <div className="col-sm">
                     <SiBootstrap size={40} />
                   </div>
-                  <div className="col-sm"></div>
                 </div>
               </div>
             </div>
           </div>
-          <hr></hr>
         </div>
         <div className="container">
           <div className="row justify-conent-center mt-5">
@@ -103,35 +99,25 @@ class ZoeMazurkProject extends Component {
           </div>
 
           <hr></hr>
-          <div className="row">
-            <div className="col-sm-2"></div>
+          <div className="row justify-content-center">
             <div className="col-sm-8 text-justify">
-              <p className="lead">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum
-              </p>
-              <p className="lead">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum
-              </p>
+              <div className="row justify-content-center mb-5">
+                <p className="lead">
+                  The ZoeMazurk portfolio is my first React project. This
+                  project is still under production due to waiting for more
+                  content from my friend. Furthermore, this project was created
+                  to help a friend of mine display their artwork for potential
+                  clients. My friend wanted a clean and straightforward site so
+                  that people visiting it would be able to easily find what they
+                  want. This project is to give you and idea of  where I started with
+                  my first React App.
+                </p>
+              </div>
+
+              <div className="row justify-content-center mb-5">
+                <h2 className="text-center">More to come!</h2>
+              </div>
             </div>
-            <div className="col-sm-2"></div>
           </div>
         </div>
       </>

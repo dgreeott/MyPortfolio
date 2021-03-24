@@ -6,8 +6,8 @@ import Content from "../../../../Content";
 
 import SimplyHomeVideo from "./SimplyHomeVideo";
 
-import { FaWordpress, FaAws } from "react-icons/fa";
-import { SiCloudflare, SiPlesk } from "react-icons/si";
+import { FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { SiBootstrap } from "react-icons/si";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 class SimplyHomeProject extends Component {
@@ -16,7 +16,6 @@ class SimplyHomeProject extends Component {
       <>
         <div className="container-fluid mb-5">
           <div className="row justify-content-center m-5">
-          <Content />
             <div className="col-sm text-center">
               <h1 className="display-4">Simply Home Consignments</h1>
             </div>
@@ -37,7 +36,7 @@ class SimplyHomeProject extends Component {
             </div>
           </div>
           <div className="row justify-content-center m-5">
-            <div className="col-sm-3 text-center">
+            <div className="col-sm-3 text-center mb-5">
               <a
                 href="https://www.simplyhomeconsignments.com"
                 target="__blank"
@@ -61,25 +60,19 @@ class SimplyHomeProject extends Component {
               </div>
               <div className="container">
                 <div className="row justify-content-center">
-                  <div className="col-sm"></div>
                   <div className="col-sm">
-                    <FaWordpress size={40} />
+                    <FaHtml5 size={40} />
                   </div>
                   <div className="col-sm">
-                    <FaAws size={40} />
+                    <SiBootstrap size={40} />
                   </div>
                   <div className="col-sm">
-                    <SiCloudflare size={40} />
+                    <FaCss3Alt size={40} />
                   </div>
-                  <div className="col-sm">
-                    <SiPlesk size={40} />
-                  </div>
-                  <div className="col-sm"></div>
                 </div>
               </div>
             </div>
           </div>
-          <hr></hr>
         </div>
         <div className="container">
           <div className="row justify-conent-center mt-5">
@@ -89,35 +82,23 @@ class SimplyHomeProject extends Component {
           </div>
 
           <hr></hr>
-          <div className="row ">
-            <div className="col-sm-2"></div>
+          <div className="row justify-content-center">
             <div className="col-sm-8 text-justify">
-              <p className="lead">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum
-              </p>
-              <p className="lead">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum
-              </p>
+              <div className="row justify-content-center mb-5">
+                <p className="lead">
+                  I was hired by RAMCO designs to assist in the development of
+                  the front-end of the Simply Home Consignments Store website.
+                  We utilized HTML and CSS in the development of this project.
+                  The focus was to change the old Boostrap3 framework to the
+                  updated Boostrap4 code base. While updating the versions we
+                  decided to change the layout and flow of the website.
+                  Starting, by adding more images of the store and its products,
+                  display those images with moving carousels, adding videos
+                  explaining what the company does, and creating more action
+                  buttons to catch the user's eyes on to certain information.
+                </p>
+              </div>
             </div>
-            <div className="col-sm-2"></div>
           </div>
         </div>
       </>

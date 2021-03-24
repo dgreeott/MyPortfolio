@@ -14,14 +14,14 @@ class Contact extends Component {
       <>
         <IconContext.Provider value={{ color: "#ffff" }}>
           <div className="container-fluid contact">
-            <div className="row justify-content-center">
+            <div className="row justify-content-center mt-5">
               <div classNamne="col-sm text-center">
                 <FadeInText>
-                  <h1 className="display-4">Contact Me!</h1>
+                  <h1 className="display-1 mb-5 text-center">Contact Me!</h1>
                 </FadeInText>
               </div>
             </div>
-            <div className="row justify-content-center headerRow">
+            <div className="row justify-content-center">
               <div className="container formContainer">
                 <div className="row p-2 contactSection">
                   <div className="col-sm-4 info">

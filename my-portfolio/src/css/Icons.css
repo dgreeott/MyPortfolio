@@ -28,6 +28,14 @@
 }
 
 
+@media screen and (max-width: 960px) {
+
+  .icon-bar {
+    display: none;
+  }
+
+}
+
   
   
 

@@ -36,8 +36,8 @@ function App() {
               <Projects />
               <About />
               <Contact />
-              <Icons />
               <Footer />
+              <Icons />
             </ScrollToTop>
           </Route>
           <Route path={"/weatherapp"}>
