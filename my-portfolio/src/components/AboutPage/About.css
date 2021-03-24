@@ -13,5 +13,14 @@
 
 p.aboutText {
   line-height: 200%;
+  font-size: 140%;
 }
 
+@media screen and (max-width: 960px) {
+
+  p.aboutText {
+    line-height: 200%;
+    font-size: 100%;
+  }
+  
+}

@@ -7,8 +7,8 @@
   position: relative;
   top: 0px;
   left: 0px;
-  width: 450px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   text-align: center;
 }
 
@@ -72,4 +72,14 @@ hr {
   .linkBtn {
     margin-top: 20px;
   }
+
+  .img-wrap {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+  }
+
 }

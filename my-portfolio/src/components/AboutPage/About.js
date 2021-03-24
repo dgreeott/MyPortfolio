@@ -6,17 +6,19 @@ const About = () => {
   return (
     <>
       <div className="container-fluid about">
-        <FadeInText>
-          <div className="row justify-content-center m-5">
-            <div className="row justify-content-center m-3">
-              <div className="col-sm text-center m-3">
-                <h1 className="display-4">About Me</h1>
-              </div>
+        <div className="row justify-content-center mb-5">
+          <div className="row justify-content-center mt-5">
+            <div className="col-sm text-center ">
+              <FadeInText>
+                <h1 className="display-1 text-center mb-5">About Me</h1>
+              </FadeInText>
             </div>
+          </div>
 
-            <div className="row justify-content-center">
-              <div className="col-sm-8 text-center mb-5">
-                <p className="lead text-justify aboutText">
+          <div className="row justify-content-center">
+            <div className="col-sm-10 text-center ">
+              <FadeInText>
+                <p className="aboutText text-justify m-3 mb-5">
                   I graduated from the Metropolitan State University of Denver
                   with a Bachelor’s Degree in Computer Information Systems, a
                   concentration in Application Development, and a concentration
@@ -31,10 +33,10 @@ const About = () => {
                   pushing and pulling data, and querying information from a
                   database.
                 </p>
-              </div>
+              </FadeInText>
             </div>
           </div>
-        </FadeInText>
+        </div>
       </div>
     </>
   );
