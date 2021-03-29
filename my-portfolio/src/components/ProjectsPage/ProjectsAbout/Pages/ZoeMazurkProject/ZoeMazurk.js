@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import ZoeMazurkVideo from "./ZoeMazurkVideo";
 import "../../../Projects.css";
-import Content from "../../../../Content";
-
-import { Button } from "../../../../Button";
 
 import { FaHtml5, FaJsSquare, FaCss3Alt, FaReact } from "react-icons/fa";
 import { SiBootstrap } from "react-icons/si";
@@ -44,28 +41,26 @@ class ZoeMazurkProject extends Component {
               </Link>
             </div>
           </div>
-          <div className="row justify-content-center m-5">
-            <div className="col-sm-3 text-center mb-5">
+          <div className="row justify-content-center">
+            <div className="col-sm text-center ">
               <a
                 href="https://www.zoemazurk.com"
                 target="__blank"
                 title="Zoe Mazurk"
               >
-                <Button>Visit Website</Button>
+                <i class="fas fa-link project"></i>
               </a>
-            </div>
-            <div className="col-sm-3 text-center">
               <a href="https://github.com/dgreeott/zoe-mazurk" target="__blank">
-                <Button>Visit Code</Button>
+                <i className="fab fa-github project"></i>
               </a>
             </div>
           </div>
         </div>
         <div className="container">
           <div className="row justify-conent-center">
-            <div className="col-sm text-center mt-3">
+            <div className="col-sm text-center">
               <div className="row justify-conent-center">
-                <div className="col-sm text-center mb-3">
+                <div className="col-sm text-center mb-4">
                   <h2>Techinal Sheet</h2>
                 </div>
               </div>
@@ -109,8 +104,8 @@ class ZoeMazurkProject extends Component {
                   to help a friend of mine display their artwork for potential
                   clients. My friend wanted a clean and straightforward site so
                   that people visiting it would be able to easily find what they
-                  want. This project is to give you and idea of  where I started with
-                  my first React App.
+                  want. This project is to give you and idea of where I started
+                  with my first React App.
                 </p>
               </div>
 

@@ -12,7 +12,7 @@ class MediaIcons extends Component {
           target="__blank"
           title="Email"
         >
-          <i class="fas fa-envelope"></i>
+          <i className="fas fa-envelope"></i>
         </a>
         <a
           className="icons-linkedin"
@@ -20,7 +20,7 @@ class MediaIcons extends Component {
           target="__blank"
           title="LinkedIn"
         >
-          <i class="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin"></i>
         </a>
         <a
           className="icons-github"
@@ -28,7 +28,7 @@ class MediaIcons extends Component {
           target="__blank"
           title="Github"
         >
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
         <a
           className="icons-resume"
@@ -36,7 +36,7 @@ class MediaIcons extends Component {
           target="__blank"
           title="Resume"
         >
-          <i class="far fa-file"></i>
+          <i className="far fa-file"></i>
         </a>
       </div>    
     );

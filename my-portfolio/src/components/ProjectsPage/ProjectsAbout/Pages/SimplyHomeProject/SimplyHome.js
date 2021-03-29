@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "../../../../Button";
 import "../../../Projects.css";
-import Content from "../../../../Content";
 
 import SimplyHomeVideo from "./SimplyHomeVideo";
 
@@ -35,26 +33,26 @@ class SimplyHomeProject extends Component {
               </Link>
             </div>
           </div>
-          <div className="row justify-content-center m-5">
-            <div className="col-sm-3 text-center mb-5">
+          <div className="row justify-content-center">
+            <div className="col-sm text-center">
               <a
                 href="https://www.simplyhomeconsignments.com"
                 target="__blank"
                 title="Simply Home Consignments"
               >
-                <Button>Visit Website</Button>
+                <i class="fas fa-link icons project"></i>
               </a>
-            </div>
-            <div className="col-sm-3 text-center">
-              <Button>Visit Code</Button>
+              <a href="https://github.com/dgreeott/zoe-mazurk" target="__blank">
+                <i className="fab fa-github project"></i>
+              </a>
             </div>
           </div>
         </div>
         <div className="container">
           <div className="row justify-conent-center">
-            <div className="col-sm text-center mt-3">
+            <div className="col-sm text-center">
               <div className="row justify-conent-center">
-                <div className="col-sm text-center mb-3">
+                <div className="col-sm text-center mb-4">
                   <h2>Techinal Sheet</h2>
                 </div>
               </div>

@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "../../../../Button";
 import "../../../Projects.css";
-import Content from "../../../../Content";
 
 import WeatherVideo from "./WeatherVideo";
 
@@ -20,7 +18,8 @@ class WeatherProject extends Component {
               <h1 className="display-4">Weather Site</h1>
             </div>
           </div>
-          <div className="row justify-conent-center m-4">
+          
+          <div className="row justify-conent-center">
             <div className="col-sm-2 text-center align-self-center">
               <Link className="icon-arrows" to="/ourhelpapp" title="OurHelpApp">
                 <IoIosArrowBack size={50} />
@@ -35,23 +34,27 @@ class WeatherProject extends Component {
               </Link>
             </div>
           </div>
-          <div className="row justify-content-center m-5">
-            <div className="col-sm-3 text-center mb-5">
-              <Button>Visit Website</Button>
-            </div>
-            <div className="col-sm-3 text-center">
+          <div className="row justify-content-center">
+            <div className="col-sm text-center">
+              <a
+                href="https://www.myweatherexperiment.com"
+                target="__blank"
+                title="WeatherApp"
+              >
+                <i class="fas fa-link project"></i>
+              </a>
               <a
                 href="https://github.com/dgreeott/weather-site"
                 target="__blank"
               >
-                <Button>Visit Code</Button>
+                <i className="fab fa-github project"></i>
               </a>
             </div>
           </div>
         </div>
         <div className="container">
           <div className="row justify-conent-center">
-            <div className="col-sm text-center mt-3">
+            <div className="col-sm text-center">
               <div className="row justify-conent-center">
                 <div className="col-sm text-center mb-3">
                   <h2>Techinal Sheet</h2>
@@ -92,13 +95,13 @@ class WeatherProject extends Component {
               <div className="row justify-content-center mb-5">
                 <p className="lead">
                   Myweatherexperiment is a project where I learned how to access
-                  and manipulate data from an API.  I utilized Bootstrap as the
+                  and manipulate data from an API. I utilized Bootstrap as the
                   CSS front-end framework in this development. In this project,
                   Axios was utilized to fetch the data from the OpenWeatherMap
                   API. I then created hooks so that I could set the query of the
                   API to the appropriate search. To do this, I created an if
                   statement with the condition of the event is by hitting the
-                  key "Enter".  A function will be run and extract the
+                  key "Enter". A function will be run and extract the
                   information for the entered city.
                 </p>
                 <p className="lead">
