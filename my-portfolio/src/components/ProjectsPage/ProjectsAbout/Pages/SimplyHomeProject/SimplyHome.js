@@ -42,7 +42,7 @@ class SimplyHomeProject extends Component {
               >
                 <i class="fas fa-link icons project"></i>
               </a>
-              <a href="https://github.com/dgreeott/zoe-mazurk" target="__blank">
+              <a href="https://github.com/rgreeott/ricochet_webstore_refactor" target="__blank">
                 <i className="fab fa-github project"></i>
               </a>
             </div>
