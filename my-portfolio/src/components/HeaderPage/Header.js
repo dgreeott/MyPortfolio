@@ -26,7 +26,7 @@ class Header extends Component {
           <div className="container-fluid rounded headerText">
             <div className="row justify-content-center">
               <div className="col-sm text-center">
-                <h1 className="display-3 headerName">DRAKE GREEOTT</h1>
+                <h1 className="display-2 headerName">DRAKE GREEOTT</h1>
               </div>
             </div>
             <div className="row text-center ">
