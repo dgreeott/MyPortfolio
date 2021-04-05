@@ -62,6 +62,24 @@ hr {
   color: rgba(90, 116, 107, 0.9);
 }
 
+.fa-link.project {
+  font-size: 2.5rem;
+  padding: 10px;
+  color: #232323;
+}
+
+ .fa-github.project, .fa-file.project {
+  font-size: 2.5rem;
+  padding: 10px;
+  color: #232323;
+}
+
+.fa-github:hover, .fa-file:hover, .fa-link:hover {
+  background-color: #f45d48;
+  color: white;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 850px) {
 
   .icon-arrows {

@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "../../../../Button";
 import "../../../Projects.css";
-import Content from "../../../../Content";
 
 import OurHelpVideo from "./OurHelpVideo";
 
@@ -39,24 +37,22 @@ class OurHelpProject extends Component {
               </Link>
             </div>
           </div>
-          <div className="row justify-content-center m-5">
-            <div className="col-sm-3 text-center mb-5">
+          <div className="row justify-content-center">
+            <div className="col-sm-3 text-center">
               <a
                 href="https://www.ourhelpapp.com"
                 target="__blank"
                 title="OurHelpApp"
                 className=""
               >
-                <Button>Visit Website</Button>
+                <i class="fas fa-link project"></i>
               </a>
-            </div>
-            <div className="col-sm-3 text-center">
               <a
                 href="https://drakes-portfolio.s3-us-west-2.amazonaws.com/documents/OurHelpApp_Doc.docx"
                 target="__blank"
                 title="Documentation"
               >
-                <Button>Documentation</Button>
+                <i className="far fa-file project"></i>
               </a>
             </div>
           </div>
@@ -65,7 +61,7 @@ class OurHelpProject extends Component {
           <div className="row justify-conent-center">
             <div className="col-sm text-center">
               <div className="row justify-conent-center">
-                <div className="col-sm text-center mb-3">
+                <div className="col-sm text-center mb-4">
                   <h2>Techinal Sheet</h2>
                 </div>
               </div>

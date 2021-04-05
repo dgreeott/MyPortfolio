@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import ScrollableAnchor from "react-scrollable-anchor";
-import FadeInText from "../FadeIn";
+
 
 import "./Projects.css";
 import { Button } from "../Button";
