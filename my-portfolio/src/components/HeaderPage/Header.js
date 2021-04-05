@@ -32,7 +32,7 @@ class Header extends Component {
             <div className="row text-center ">
               <div className="col-sm ">
                 <Typer
-                  className="headerTyper"
+                  className="headerTyper display-4"
                   dataText={["Software Developer", "Welcome to my website!"]}
                 />
               </div>

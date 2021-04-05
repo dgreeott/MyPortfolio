@@ -3,8 +3,8 @@ import VideoPlayer from "react-video-js-player";
 import "../../../Projects.css"
 
 const VideoJS = () => {
-  const videoSrc = "https://drakes-portfolio.s3-us-west-2.amazonaws.com/video/SimplyHomeVideo.mp4";
-  
+  const videoSrc = "https://drakes-portfolio.s3-us-west-2.amazonaws.com/video/ShoppingCartApp.mp4";
+
   return (
     <div className="row justify-content-center">
       <VideoPlayer
