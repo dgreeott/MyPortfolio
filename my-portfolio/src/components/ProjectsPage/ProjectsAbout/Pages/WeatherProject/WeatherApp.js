@@ -15,11 +15,11 @@ class WeatherProject extends Component {
         <div className="container-fluid mb-5">
           <div className="row justify-content-center m-5">
             <div className="col-sm text-center">
-              <h1 className="display-4">Weather Site</h1>
+              <h1 className="display-3">Weather Site</h1>
             </div>
           </div>
           
-          <div className="row justify-conent-center">
+          <div className="row justify-conent-center m-4">
             <div className="col-sm-2 text-center align-self-center">
               <Link className="icon-arrows" to="/ourhelpapp" title="OurHelpApp">
                 <IoIosArrowBack size={50} />
@@ -29,7 +29,7 @@ class WeatherProject extends Component {
               <WeatherVideo />
             </div>
             <div className="col-sm-2 text-center align-self-center">
-              <Link className="icon-arrows" to="/zoemazurk" title="Zoe Mazurk">
+              <Link className="icon-arrows" to="/shoppingcart" title="Shopping Cart">
                 <IoIosArrowForward size={50} />
               </Link>
             </div>
