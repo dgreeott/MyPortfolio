@@ -23,6 +23,11 @@ class Footer extends Component {
                   </Link>
                 </li>
                 <li className="mb-2">
+                  <Link to="/shoppingcart" className="footer text-light">
+                    Shopping Cart App
+                  </Link>
+                </li>
+                <li className="mb-2">
                   <Link to="/zoemazurk" className="footer text-light">
                     Zoe Mazurk Site
                   </Link>

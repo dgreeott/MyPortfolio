@@ -40,7 +40,7 @@ class Projects extends Component {
                             {item.title}
                           </h1>
                           <h3 key={index} className={item.cNameIcons}>
-                            {item.icon1} {item.icon2} {item.icon3} {item.icon4}{" "}
+                            {item.icon1} {item.icon2} {item.icon3} {item.icon4} {item.icon5}
                           </h3>
                           <div className={item.cNameButton}>
                             <Button>More...</Button>

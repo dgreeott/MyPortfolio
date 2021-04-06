@@ -14,7 +14,7 @@ class ShoppingCartApp extends Component {
         <div className="container-fluid mb-5">
           <div className="row justify-content-center m-5">
             <div className="col-sm text-center">
-              <h1 className="display-3 text-center">Shopping Cart</h1>
+              <h1 className="display-3 text-center">Shopping Cart App</h1>
             </div>
           </div>
           <div className="row justify-conent-center m-4">
@@ -34,8 +34,8 @@ class ShoppingCartApp extends Component {
             <div className="col-sm-2 text-center align-self-center">
               <Link
                 className="icon-arrows"
-                to="/simplyhome"
-                title="Simply Home Consignment"
+                to="/zoemazurk"
+                title="Zoe Mazurk"
               >
                 <IoIosArrowForward size={50} />
               </Link>
@@ -44,13 +44,13 @@ class ShoppingCartApp extends Component {
           <div className="row justify-content-center">
             <div className="col-sm text-center ">
               <a
-                href="https://www.zoemazurk.com"
+                href="#"
                 target="__blank"
-                title="Zoe Mazurk"
+                title="ShoppingCart"
               >
                 <i class="fas fa-link project"></i>
               </a>
-              <a href="https://github.com/dgreeott/zoe-mazurk" target="__blank">
+              <a href="https://github.com/dgreeott/redux-shopping-cart" target="__blank">
                 <i className="fab fa-github project"></i>
               </a>
             </div>

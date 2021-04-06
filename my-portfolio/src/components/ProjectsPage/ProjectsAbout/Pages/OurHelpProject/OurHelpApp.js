@@ -15,7 +15,7 @@ class OurHelpProject extends Component {
         <div className="container-fluid mb-5">
           <div className="row justify-content-center m-5">
             <div className="col-sm text-center">
-              <h1 className="display-4">OurHelpApp</h1>
+              <h1 className="display-3">OurHelpApp</h1>
             </div>
           </div>
           <div className="row justify-conent-center m-4">
