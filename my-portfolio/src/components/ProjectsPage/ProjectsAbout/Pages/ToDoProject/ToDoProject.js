@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import ShoppingCartVideo from "./ShoppingCartVideo";
+import ToDoVideo from "./ToDoVideo";
 import "../../../Projects.css";
 
 import { FaHtml5, FaJsSquare, FaCss3Alt, FaReact } from "react-icons/fa";
 import { SiBootstrap, SiRedux } from "react-icons/si";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-class ShoppingCartApp extends Component {
+class ToDoProject extends Component {
   render() {
     return (
       <>
         <div className="container-fluid mb-5">
           <div className="row justify-content-center m-5">
             <div className="col-sm text-center">
-              <h1 className="display-3 text-center">Shopping Cart App</h1>
+              <h1 className="display-3 text-center">MERN To Do List</h1>
             </div>
           </div>
           <div className="row justify-conent-center m-4">
@@ -22,20 +22,20 @@ class ShoppingCartApp extends Component {
               <Link
                 className="icon-arrows"
                 activeClassName="icon-arrows-active"
-                to="/weatherapp"
-                title="WeatherApp"
+                to="/shoppingcart"
+                title="Shopping Cart"
               >
                 <IoIosArrowBack size={50} />
               </Link>
             </div>
             <div className="col-sm-8 text-center">
-              <ShoppingCartVideo />
+              <ToDoVideo />
             </div>
             <div className="col-sm-2 text-center align-self-center">
               <Link
                 className="icon-arrows"
-                to="/todo"
-                title="To Do List"
+                to="/zoemazurk"
+                title="Zoe Mazurk"
               >
                 <IoIosArrowForward size={50} />
               </Link>
@@ -46,11 +46,11 @@ class ShoppingCartApp extends Component {
               <a
                 href="#"
                 target="__blank"
-                title="ShoppingCart"
+                title="ToDoList"
               >
                 <i class="fas fa-link project"></i>
               </a>
-              <a href="https://github.com/dgreeott/redux-shopping-cart" target="__blank">
+              <a href="https://github.com/dgreeott/Todo_MERN" target="__blank">
                 <i className="fab fa-github project"></i>
               </a>
             </div>
@@ -112,4 +112,4 @@ class ShoppingCartApp extends Component {
   }
 }
 
-export default ShoppingCartApp;
+export default ToDoProject;

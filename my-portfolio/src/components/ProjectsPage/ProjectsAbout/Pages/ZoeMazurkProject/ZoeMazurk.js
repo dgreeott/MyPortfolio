@@ -22,8 +22,8 @@ class ZoeMazurkProject extends Component {
               <Link
                 className="icon-arrows"
                 activeClassName="icon-arrows-active"
-                to="/shoppingcart"
-                title="Shopping Cart"
+                to="/todo"
+                title="To Do List"
               >
                 <IoIosArrowBack size={50} />
               </Link>

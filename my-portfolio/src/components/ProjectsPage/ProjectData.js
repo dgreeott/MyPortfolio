@@ -35,11 +35,26 @@ export const Project = [
     cNameIcons: "m-5"
   },
   {
+    url: "/todo",
+    imgSrc:
+      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/ToDoProject.png",
+    cNameImg: "img",
+    altImg: "Project 3",
+    title: "MERN To Do List",
+    cNameTitle: "m-4",
+    icon1: <FaHtml5 size={50} />,
+    icon2: <FaCss3Alt size={50} />,
+    icon3: <FaJsSquare size={50} />,
+    icon4: <FaReact size={50} />,
+    cNameButton: "m-5",
+    cNameIcons: "m-5"
+  },
+  {
     url: "/zoemazurk",
     imgSrc:
       "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/ZoeProject.png",
     cNameImg: "img",
-    altImg: "Project 3",
+    altImg: "Project 4",
     title: "Zoe Mazurk",
     cNameTitle: "m-4",
     icon1: <FaHtml5 size={50} />,
@@ -54,7 +69,7 @@ export const Project = [
     imgSrc:
       "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/SimplyHomeProject.png",
     cNameImg: "img",
-    altImg: "Project 4",
+    altImg: "Project 5",
     title: "Simply Home Consignments",
     cNameTitle: "m-4",
     icon1: <FaHtml5 size={50} />,
@@ -68,7 +83,7 @@ export const Project = [
     imgSrc:
       "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/OurHelpProject.png",
     cNameImg: "img",
-    altImg: "Project 5",
+    altImg: "Project 6",
     title: "OurHelpApp",
     cNameTitle: "m-4",
     icon1: <FaWordpress size={50} />,
