@@ -10,13 +10,13 @@ export const Project = [
     cNameImg: "img",
     altImg: "Project 1",
     title: "Weather Site",
-    cNameTitle: "m-4",
+    cNameTitle: "mt-5",
     icon1: <FaHtml5 size={50} />,
     icon2: <FaCss3Alt size={50} />,
     icon3: <FaJsSquare size={50} />,
     icon4: <FaReact size={50} />,
-    cNameButton: "m-5",
-    cNameIcons: "m-5"
+    cNameButton: "m-3",
+    cNameIcons: "m-2"
   },
   {
     url: "/shoppingcart",
@@ -25,58 +25,73 @@ export const Project = [
     cNameImg: "img",
     altImg: "Project 2",
     title: "Shopping Cart App",
-    cNameTitle: "m-4",
+    cNameTitle: "mt-5",
     icon1: <FaHtml5 size={50} />,
     icon2: <FaCss3Alt size={50} />,
     icon3: <FaJsSquare size={50} />,
     icon4: <FaReact size={50} />,
     icon5: <SiRedux size={50} />,
-    cNameButton: "m-5",
-    cNameIcons: "m-5"
+    cNameButton: "m-3",
+    cNameIcons: "m-2"
+  },
+  {
+    url: "/todo",
+    imgSrc:
+      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/ToDoProject.png",
+    cNameImg: "img",
+    altImg: "Project 3",
+    title: "MERN To Do List",
+    cNameTitle: "mt-5",
+    icon1: <FaHtml5 size={50} />,
+    icon2: <FaCss3Alt size={50} />,
+    icon3: <FaJsSquare size={50} />,
+    icon4: <FaReact size={50} />,
+    cNameButton: "m-3",
+    cNameIcons: "m-2"
   },
   {
     url: "/zoemazurk",
     imgSrc:
       "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/ZoeProject.png",
     cNameImg: "img",
-    altImg: "Project 3",
+    altImg: "Project 4",
     title: "Zoe Mazurk",
-    cNameTitle: "m-4",
+    cNameTitle: "mt-5",
     icon1: <FaHtml5 size={50} />,
     icon2: <FaCss3Alt size={50} />,
     icon3: <FaJsSquare size={50} />,
     icon4: <FaReact size={50} />,
-    cNameButton: "m-5",
-    cNameIcons: "m-5"
+    cNameButton: "m-3",
+    cNameIcons: "m-2"
   },
   {
     url: "/simplyhome",
     imgSrc:
       "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/SimplyHomeProject.png",
     cNameImg: "img",
-    altImg: "Project 4",
+    altImg: "Project 5",
     title: "Simply Home Consignments",
-    cNameTitle: "m-4",
+    cNameTitle: "mt-5",
     icon1: <FaHtml5 size={50} />,
     icon2: <SiBootstrap size={50} />,
     icon3: <FaCss3Alt size={50} />,
-    cNameButton: "m-5",
-    cNameIcons: "m-5"
+    cNameButton: "m-3",
+    cNameIcons: "m-2"
   },
   {
     url: "/ourhelpapp",
     imgSrc:
       "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/OurHelpProject.png",
     cNameImg: "img",
-    altImg: "Project 5",
+    altImg: "Project 6",
     title: "OurHelpApp",
-    cNameTitle: "m-4",
+    cNameTitle: "mt-5",
     icon1: <FaWordpress size={50} />,
     icon2: <FaAws size={50} />,
     icon3: <SiCloudflare size={50} />,
     icon4: <SiPlesk size={50} />,
-    cNameButton: "m-5",
-    cNameIcons: "m-5"
+    cNameButton: "m-3",
+    cNameIcons: "m-2"
   },
   
 ];

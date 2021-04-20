@@ -16,7 +16,8 @@ import WeatherApp from "./ProjectsPage/ProjectsAbout/Pages/WeatherProject/Weathe
 import ZoeMazurk from "./ProjectsPage/ProjectsAbout/Pages/ZoeMazurkProject/ZoeMazurk";
 import SimplyHome from "./ProjectsPage/ProjectsAbout/Pages/SimplyHomeProject/SimplyHome";
 import OurHelpApp from "./ProjectsPage/ProjectsAbout/Pages/OurHelpProject/OurHelpApp";
-import ShoppingCartApp from "./ProjectsPage/ProjectsAbout/Pages/ShoppingCartApp/ShoppingCartApp"
+import ShoppingCartApp from "./ProjectsPage/ProjectsAbout/Pages/ShoppingCartApp/ShoppingCartApp";
+import ToDoProject from "./ProjectsPage/ProjectsAbout/Pages/ToDoProject/ToDoProject";
 
 import Helmet from "react-helmet";
 
@@ -77,6 +78,14 @@ function App() {
             <ScrollToTop>
               <Navbar />
               <ShoppingCartApp />
+              <Icons />
+              <Footer />
+            </ScrollToTop>
+          </Route>
+          <Route path={"/todo"}>
+            <ScrollToTop>
+              <Navbar />
+              <ToDoProject />
               <Icons />
               <Footer />
             </ScrollToTop>
