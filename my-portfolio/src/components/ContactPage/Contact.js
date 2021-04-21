@@ -64,7 +64,7 @@ class Contact extends Component {
                         </div>
 
                         <div className="col-sm-10">
-                          <h5 className="address">101 Grant St, Denver, Co</h5>
+                          <h5 className="address">Portland, OR 97205</h5>
                         </div>
                       </div>
                     </FadeInText>
