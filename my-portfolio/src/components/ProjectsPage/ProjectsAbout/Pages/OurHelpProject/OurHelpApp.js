@@ -48,7 +48,7 @@ class OurHelpProject extends Component {
                 <i class="fas fa-link project"></i>
               </a>
               <a
-                href="https://drakes-portfolio.s3-us-west-2.amazonaws.com/documents/OurHelpApp_Doc.docx"
+                href="https://drakes-portfolio.s3-us-west-2.amazonaws.com/documents/OurHelpApp_Doc.pdf"
                 target="__blank"
                 title="Documentation"
               >
