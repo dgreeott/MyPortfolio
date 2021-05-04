@@ -33,14 +33,12 @@ function App() {
         />
         <Switch>
           <Route path={"/"} exact>
-            <ScrollToTop>
-              <Header />
-              <Projects />
-              <About />
-              <Contact />
-              <Footer />
-              <Icons />
-            </ScrollToTop>
+            <Header />
+            <Projects />
+            <About />
+            <Contact />
+            <Footer />
+            <Icons />
           </Route>
           <Route path={"/weatherapp"}>
             <ScrollToTop>

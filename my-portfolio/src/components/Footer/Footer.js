@@ -10,11 +10,11 @@ class Footer extends Component {
       <footer>
         <div className="container">
           <div className="row text-center mt-5">
-            <div className="col-lg-8 col-md-12  mb-md-0">
+            <div className="col-lg-8">
               <Skills />
             </div>
 
-            <div className="col-lg-4 col-md-6 mb-md-0 mb-5">
+            <div className="col-lg-4 mb-5">
               <h1 className="mb-4 mt-2">Projects</h1>
               <ul className="list-unstyled mb-0">
                 <li className="mb-2 text-center">

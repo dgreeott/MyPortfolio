@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import ToDoVideo from "./ToDoVideo";
 import "../../../Projects.css";
 
-import { FaHtml5, FaJsSquare, FaCss3Alt, FaReact } from "react-icons/fa";
-import { SiBootstrap, SiRedux } from "react-icons/si";
+import { FaHtml5, FaJsSquare, FaCss3Alt, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiBootstrap, SiMongodb } from "react-icons/si";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 class ToDoProject extends Component {
@@ -14,7 +14,7 @@ class ToDoProject extends Component {
         <div className="container-fluid mb-5">
           <div className="row justify-content-center m-5">
             <div className="col-sm text-center">
-              <h1 className="display-3 text-center">MERN To Do List</h1>
+              <h1 className="display-3 text-center">To Do List</h1>
             </div>
           </div>
           <div className="row justify-conent-center m-4">
@@ -78,9 +78,11 @@ class ToDoProject extends Component {
                   <div className="col-sm">
                     <FaReact size={40} />
                   </div>
-                  
                   <div className="col-sm">
-                    <SiRedux size={40} />
+                    <FaNodeJs size={40} />
+                  </div>
+                  <div className="col-sm">
+                    <SiMongodb size={40} />
                   </div>
                   <div className="col-sm">
                     <SiBootstrap size={40} />
