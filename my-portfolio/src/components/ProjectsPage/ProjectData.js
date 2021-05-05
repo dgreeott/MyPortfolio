@@ -21,7 +21,7 @@ export const Project = [
   {
     url: "/shoppingcart",
     imgSrc:
-      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/ShoppingCartApp.png",
+      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/ShoppingCart.jpg",
     cNameImg: "img",
     altImg: "Project 2",
     title: "Shopping Cart App",
@@ -37,7 +37,7 @@ export const Project = [
   {
     url: "/todo",
     imgSrc:
-      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/ToDoProject.png",
+      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/ToDoProject.jpg",
     cNameImg: "img",
     altImg: "Project 3",
     title: "To Do List",
@@ -54,7 +54,7 @@ export const Project = [
   {
     url: "/zoemazurk",
     imgSrc:
-      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/ZoeProject.png",
+      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/ZoeMazurk.jpg",
     cNameImg: "img",
     altImg: "Project 4",
     title: "Zoe Mazurk",
@@ -69,7 +69,7 @@ export const Project = [
   {
     url: "/simplyhome",
     imgSrc:
-      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/SimplyHomeProject.png",
+      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/SimplyHome.jpg",
     cNameImg: "img",
     altImg: "Project 5",
     title: "Simply Home Consignments",
@@ -83,7 +83,7 @@ export const Project = [
   {
     url: "/ourhelpapp",
     imgSrc:
-      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/OurHelpProject.png",
+      "https://drakes-portfolio.s3-us-west-2.amazonaws.com/img/OurHelpApp.jpg",
     cNameImg: "img",
     altImg: "Project 6",
     title: "OurHelpApp",
