@@ -39,9 +39,8 @@ class Header extends Component {
             </div>
             <div className="row text-center m-5">
               <div className="col-sm">
-                <a href="#mywork" className="downArrow">
                   <AiFillDownCircle size={50} />
-                </a>
+                
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 
 import Navbar from "./Navbar/Navbar";
 import Icons from "./Icons";
@@ -10,7 +11,7 @@ import Header from "./HeaderPage/Header";
 import About from "./AboutPage/About";
 import Projects from "./ProjectsPage/Projects";
 import Contact from "./ContactPage/Contact";
-import ScrollToTop from "./ScrollToTop";
+
 
 import WeatherApp from "./ProjectsPage/ProjectsAbout/Pages/WeatherProject/WeatherApp";
 import ZoeMazurk from "./ProjectsPage/ProjectsAbout/Pages/ZoeMazurkProject/ZoeMazurk";
@@ -32,64 +33,52 @@ function App() {
           }}
         />
         <Switch>
+        <ScrollToTop>
           <Route path={"/"} exact>
-            <ScrollToTop>
-              <Header />
-              <Projects />
-              <About />
-              <Contact />
-              <Footer />
-              <Icons />
-            </ScrollToTop>
+            <Header />
+            <Projects />
+            <About />
+            <Contact />
+            <Footer />
+            <Icons />
           </Route>
-          <Route path={"/weatherapp"}>
-            <ScrollToTop>
+            <Route path={"/weatherapp"}>
               <Navbar />
               <WeatherApp />
               <Icons />
               <Footer />
-            </ScrollToTop>
-          </Route>
-          <Route path={"/zoemazurk"}>
-            <ScrollToTop>
+            </Route>
+            <Route path={"/zoemazurk"}>
               <Navbar />
               <ZoeMazurk />
               <Icons />
               <Footer />
-            </ScrollToTop>
-          </Route>
-          <Route path={"/simplyhome"}>
-            <ScrollToTop>
+            </Route>
+            <Route path={"/simplyhome"}>
               <Navbar />
               <SimplyHome />
               <Icons />
               <Footer />
-            </ScrollToTop>
-          </Route>
-          <Route path={"/ourhelpapp"}>
-            <ScrollToTop>
+            </Route>
+            <Route path={"/ourhelpapp"}>
               <Navbar />
               <OurHelpApp />
               <Icons />
               <Footer />
-            </ScrollToTop>
-          </Route>
-          <Route path={"/shoppingcart"}>
-            <ScrollToTop>
+            </Route>
+            <Route path={"/shoppingcart"}>
               <Navbar />
               <ShoppingCartApp />
               <Icons />
               <Footer />
-            </ScrollToTop>
-          </Route>
-          <Route path={"/todo"}>
-            <ScrollToTop>
+            </Route>
+            <Route path={"/todo"}>
               <Navbar />
               <ToDoProject />
               <Icons />
               <Footer />
+            </Route>
             </ScrollToTop>
-          </Route>
         </Switch>
       </Router>
     </div>

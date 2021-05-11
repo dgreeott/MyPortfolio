@@ -11,12 +11,10 @@ class Projects extends Component {
   render() {
     return (
       <>
-        <div className="container-fluid mt-5 mb-5">
+        <div className="container mt-5 mb-5">
           <div className="row justify-content-center">
             <div className="col-sm text-center">
-              <ScrollableAnchor id={"mywork"}>
                 <h1 className="display-1 text-center mb-5">My Work</h1>
-              </ScrollableAnchor>
             </div>
           </div>
 
@@ -24,23 +22,26 @@ class Projects extends Component {
             {Project.map((item, index) => {
               return (
                 <>
-                  <div className="col-sm m-3">
+                  <div className="col-sm">
                     <div className="row justify-content-center">
                       <div className="img-wrap">
                         <Link to={item.url}>
-                          <img
-                            key={index}
-                            className={item.cNameImg}
-                            src={item.imgSrc}
-                            alt={item.altImg}
-                          />
+                        
+                            <img
+                              key={index}
+                              className={item.cNameImg}
+                              src={item.imgSrc}
+                              alt={item.altImg}
+                            />
+                        
                         </Link>
-                        <div className="img-description mt-5">
+                        <div className="img-description mt-3">
                           <h1 key={index} className={item.cNameTitle}>
                             {item.title}
                           </h1>
                           <h3 key={index} className={item.cNameIcons}>
-                            {item.icon1} {item.icon2} {item.icon3} {item.icon4} {item.icon5}
+                            {item.icon1} {item.icon2} {item.icon3} {item.icon4}{" "}
+                            {item.icon5} {item.icon6}
                           </h3>
                           <div className={item.cNameButton}>
                             <Button>More...</Button>
